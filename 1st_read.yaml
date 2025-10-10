@@ -1,0 +1,22 @@
+target_path: rom/1ST_READ.BIN
+elf_path: build/1ST_READ.elf
+map_path: build/1ST_READ.map
+build_path: build
+key: 0x8C010000
+symbol_addrs_path: ["symbols.1st_read.txt"]
+src_path: src
+asm_path: asm
+nonmatchings_path: asm/nonmatching
+linker_path: 1st_read_lnk.sub
+entry: _START_SYS
+
+section_order: P,C,D,PSG,CSG,DSG,B
+additional_linker: ["fsymbol P,C,D,PSG,CSG,CSG32,DSG,DSG32,B,BSG,BSG32"]
+
+segments:
+  - name: main
+    type: code
+    start: 0x0
+    dir: .
+    subsegments: 
+      - [0x0, asm, start, 0x3BAD86]
