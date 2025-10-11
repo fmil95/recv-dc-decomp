@@ -1,2 +1,6 @@
+bhInitCamera = 0x8C0F39C0;
 bhControlCamera = 0x8C0F3A34;
+bhMakeCameraVector = 0x8C0F3BB0;
+bhGetCameraPosition = 0x8C0F3C0A;
 njSetPerspective = 0x8C19FDBC;
+kmiMemCopy4 = 0x8C1E8C00;

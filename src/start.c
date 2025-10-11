@@ -5327,14 +5327,14 @@ INLINE_ASM(_func_8C0F325C, 0x454, "asm/nonmatching/./start/_func_8C0F325C.src");
 
 INLINE_ASM(_func_8C0F36B0, 0x310, "asm/nonmatching/./start/_func_8C0F36B0.src");
 
-INLINE_ASM(_func_8C0F39C0, 0x74, "asm/nonmatching/./start/_func_8C0F39C0.src");
+INLINE_ASM(_bhInitCamera, 0x74, "asm/nonmatching/./start/_bhInitCamera.src");
 
 INLINE_ASM(_bhControlCamera, 0x17c, "asm/nonmatching/./start/_bhControlCamera.src");
 
-INLINE_ASM(_func_8C0F3BB0, 0x5a, "asm/nonmatching/./start/_func_8C0F3BB0.src");
+INLINE_ASM(_bhMakeCameraVector, 0x5a, "asm/nonmatching/./start/_bhMakeCameraVector.src");
 
 // MERGE_LIST([['_lbl_8C13A510', '_lbl_8C0F3C80'], ['_lbl_8C132C98', '_lbl_8C0F3C84'], ['_lbl_8C197408', '_lbl_8C0F3C88'], ['_lbl_8C240FB8', '_lbl_8C0F3C8C'], ['_lbl_8C196BBC', '_lbl_8C0F3C90'], ['_lbl_8C196B28', '_lbl_8C0F3C94'], ['_lbl_8C196C58', '_lbl_8C0F3C98'], ['_lbl_8C195B00', '_lbl_8C0F3C9C']]);
-INLINE_ASM(_func_8C0F3C0A, 0x9e, "asm/nonmatching/./start/_func_8C0F3C0A.src");
+INLINE_ASM(_bhGetCameraPosition, 0x9e, "asm/nonmatching/./start/_bhGetCameraPosition.src");
 
 INLINE_ASM(_func_8C0F3CA8, 0x384, "asm/nonmatching/./start/_func_8C0F3CA8.src");
 
@@ -5511,7 +5511,7 @@ INLINE_ASM(_func_8C0FD3C2, 0x26, "asm/nonmatching/./start/_func_8C0FD3C2.src");
 // MERGE_LIST([['_lbl_8C013754', '_lbl_8C0FD480'], ["h'11F803EC", 1004], ['_lbl_8C1411F8', '_lbl_8C0FD47C']]);
 INLINE_ASM(_func_8C0FD3E8, 0x2c, "asm/nonmatching/./start/_func_8C0FD3E8.src");
 
-// MERGE_LIST([['_lbl_8C1411F4', '_lbl_8C0FD484'], ['_lbl_8C016FB0', '_lbl_8C0FD488'], ['_lbl_8C0F39C0', '_lbl_8C0FD48C'], ['_lbl_8C040CE8', '_lbl_8C0FD490'], ['_lbl_8C0B84BC', '_lbl_8C0FD494']]);
+// MERGE_LIST([['_lbl_8C1411F4', '_lbl_8C0FD484'], ['_lbl_8C016FB0', '_lbl_8C0FD488'], ['_bhInitCamera', '_lbl_8C0FD48C'], ['_lbl_8C040CE8', '_lbl_8C0FD490'], ['_lbl_8C0B84BC', '_lbl_8C0FD494']]);
 INLINE_ASM(_func_8C0FD414, 0x6f8, "asm/nonmatching/./start/_func_8C0FD414.src");
 
 INLINE_ASM(_func_8C0FDB0C, 0x658, "asm/nonmatching/./start/_func_8C0FDB0C.src");
