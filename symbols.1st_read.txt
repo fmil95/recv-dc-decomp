@@ -1,0 +1,2 @@
+bhControlCamera = 0x8C0F3A34;
+njSetPerspective = 0x8C19FDBC;
