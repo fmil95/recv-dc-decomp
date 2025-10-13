@@ -1,6 +1,17 @@
+bhSysCallMonitor = 0x8C018654;
 bhInitCamera = 0x8C0F39C0;
 bhControlCamera = 0x8C0F3A34;
 bhMakeCameraVector = 0x8C0F3BB0;
 bhGetCameraPosition = 0x8C0F3C0A;
+GetReadFileStatus = 0x8C1076EC;
+FileReadStatus = 0x8C1077F0;
+njScale = 0x8C197128;
+njTranslate = 0x8C197304;
+njUnitMatrix = 0x8C197408;
+njUnitVector = 0x8C1974E0;
+njSin = 0x8C19771C;
+njSqrt = 0x8C197728;
+njTan = 0x8C197758;
 njSetPerspective = 0x8C19FDBC;
+njSetLightMaterials = 0x8C1B914C;
 kmiMemCopy4 = 0x8C1E8C00;
