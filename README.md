@@ -1,6 +1,6 @@
 # Resident Evil: Code Veronica (Dreamcast)
 This is a matching decompilation of Resident Evil: Code Veronica (US).
-Currently it's set up for building 1ST_READ.bin (the main executable).
+Currently it's set up for building 1ST_READ.bin (the main executable). Check the [PS2 version decompile](https://github.com/fmil95/recvx-decomp) to see the overall progress on the reverse-engineering of the game code.
 
 # Setup
 - The splitter requires sh4dis and pyyaml (and python)
