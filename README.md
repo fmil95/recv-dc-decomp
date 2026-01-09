@@ -18,5 +18,5 @@ pip install sh4dis
 - Put 1ST_READ.BIN (make sure the extension is exactly .BIN - case sensitive) in the "rom" folder in the repo
 - Run "make setup"
 
-# Extra info
+# Extra info 
 This project has been created using Exant64's Sonic Adventure 2 decompilation repo (sa2dc) as a template, so some rightful credits to him.
