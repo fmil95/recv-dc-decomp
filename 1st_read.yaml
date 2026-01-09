@@ -19,4 +19,6 @@ segments:
     start: 0x0
     dir: .
     subsegments: 
-      - [0x0, asm, start, 0x3BAD86]
+      - [0x0, asm, start]
+      - [0x126948, rodata]
+      - [0x1311E0, data]
