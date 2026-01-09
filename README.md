@@ -1,4 +1,7 @@
-# Resident Evil: Code Veronica (Dreamcast)
+# Resident Evil - Code: Veronica Decompile (Dreamcast)
+
+<img src="https://i.imgur.com/gqroaL5.png"/> 
+
 This is a matching decompilation of Resident Evil: Code Veronica (US).
 Currently it's set up for building 1ST_READ.bin (the main executable). Check the [PS2 version decompile](https://github.com/fmil95/recvx-decomp) to see the overall progress on the reverse-engineering of the game code.
 
@@ -17,8 +20,3 @@ pip install sh4dis
 
 # Extra info
 This project has been created using Exant64's Sonic Adventure 2 decompilation repo (sa2dc) as a template, so some rightful credits to him.
-
-Todo:
-- Identify at least a couple of game functions using the PS2 version debugging symbols as reference to fill out symbols.1st_read.txt.
-- The chosen version of the Dreamcast API (Katana 11) is just a bare guess, try to pin-point the exact SDK number and SHC compiler as well.
-- Optimize dcsplit.py a bit more as it currently takes too long to setup.
