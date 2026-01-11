@@ -5,8 +5,8 @@
 #idk how we should do this with other overlay files + 1st_read later on
 
 1ST_READ_KEY := 8C010000
-1ST_READ_ROM := build/1ST_READ.bin
-1ST_READ_ELF := $(1ST_READ_ROM:.bin=.elf)
+1ST_READ_ROM := build/1ST_READ.BIN
+1ST_READ_ELF := $(1ST_READ_ROM:.BIN=.elf)
 
 COMPARE ?= 1
 
@@ -51,7 +51,7 @@ export SHC_TMP := $(shell $(WINPATH) $(abspath $(SHC_DIR)/temp))
 #the source dir (original layout was like that too) and katana includes
 INCLUDEDIRS := src,Include,$(SHC_DIR)\\include
 
-CFLAGS := -comment=nonest -cpu=sh4 -division=cpu -fpu=single -endian=little -extra=a=1800 -optimize=1 -pic=0 -macsave=0 \
+CFLAGS := -comment=nonest -cpu=sh4 -division=cpu -fpu=single -endian=little -optimize=1 -pic=0 -macsave=0 \
 	-speed -sjis -loop -string=const -round=nearest -inline -aggressive=2 -code=asmcode -include=$(INCLUDEDIRS)
 
 ASFLAGS := -cpu=sh4 -endian=little -sjis -include=asm

@@ -20,5 +20,7 @@ segments:
     dir: .
     subsegments: 
       - [0x0, asm, start]
+      - [0xE7DB4, asm, flag]
+      - [0xE7E0C, asm, end]
       - [0x126948, rodata]
       - [0x1311E0, data]
