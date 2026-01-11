@@ -338,6 +338,7 @@ bhSetFixedCut                  = 0x8c0f4538;
 bhSetEventFixedCut             = 0x8c0f6104;
 bhInitPlEyeCamera              = 0x8c0f7864;
 bhSetPlEyeCamera               = 0x8c0f7a6e;
+bhStFlg                        = 0x8C0F7DB4;
 bhCrFlg                        = 0x8c0f7dd0;
 bhCkFlg                        = 0x8c0f7dee;
 bhSetLightTab                  = 0x8c0f8038;
