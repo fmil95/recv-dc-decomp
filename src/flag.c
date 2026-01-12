@@ -1,4 +1,4 @@
-
+#include "flag.h"
 
 void bhStFlg(unsigned int* flg, unsigned int bit)
 {

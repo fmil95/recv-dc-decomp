@@ -1,3 +1,5 @@
+#include "sync.h"
+
 INLINE_ASM(_bhInitVSync, 0x12, "asm/nonmatching/./sync/_bhInitVSync.src");
 
 // MERGE_LIST([['_bhControlVSync', '_lbl_8C1311A8'], ['_njSetEORFunction', '_njSetEORFunction_'], ['_bhControlVSync_', '_njSetVSyncFunction'], ['_bhControlEOR', '_lbl_8C1311B0']]);
