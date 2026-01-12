@@ -28,7 +28,6 @@ BASH := /usr/bin/env bash
 FIX_INLINE := $(PYTHON) tools/fix_inline_asm.py
 FIX_INLINE_C := $(PYTHON) tools/inline_asm_c.py
 DCSPLIT := $(PYTHON) tools/dcsplit/dcsplit.py
-GENFSY := $(PYTHON) tools/genfsy.py
 
 # path conversion for msys2 (msys2 doesnt seem to automatically convert foo/bar paths because windows apps are
 # apparently supposed to support that, except SHC doesn't lol) (pls correct me if im wrong)
