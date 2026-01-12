@@ -82,7 +82,6 @@ $(1ST_READ_ROM): $(1ST_READ_ELF)
 
 $(1ST_READ_ELF): $(O_FILES)
 	$(LD) $(LDFLAGS) -sub=1st_read_lnk.sub
-	$(shell mv 1st_read.fsy build/1st_read.fsy)
 
 # wibo doesn't support envvar conversion so we use wine for shc
 # wine crashes asmsh, and asmsh doesn't use the envvars
@@ -97,5 +96,4 @@ build/asm/%.obj: asm/%.src
 	$(PATHHELP) $(WIBO) $(AS) $< $(ASFLAGS) -object=$@
 
 build/asm/1st_read.obj:
-	$(shell grep -v "_lbl_" build/1st_read.fsy > build/1st_read_tmp.fsy)
-	$(PATHHELP) $(WIBO) $(AS) build/1st_read_tmp.fsy $(ASFLAGS) -object=$@
+	$(PATHHELP) $(WIBO) $(AS) $(ASFLAGS) -object=$@
