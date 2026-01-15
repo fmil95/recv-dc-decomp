@@ -19,8 +19,10 @@ segments:
     dir: .
     subsegments: 
       - [0x0, asm, start]
+      - [0xE1D90, asm, screen]
+      - [0xE39C0, asm, split1]
       - [0xE7DB4, asm, flag]
-      - [0xE7E0C, asm, split]
+      - [0xE7E0C, asm, split2]
       - [0x1210E8, asm, sync]
       - [0x1216B4, asm, end]
       - [0x126948, rodata]
