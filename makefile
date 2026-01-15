@@ -80,7 +80,7 @@ $(1ST_READ_ROM): $(1ST_READ_ELF)
 	$(ELF2BIN) -s $(1ST_READ_KEY) $< $@
 
 $(1ST_READ_ELF): $(O_FILES)
-	$(LD) $(LDFLAGS) -sub=1st_read_lnk.sub
+	$(PATHHELP) $(WIBO) $(LD) $(LDFLAGS) -sub=1st_read_lnk.sub
 
 # wibo doesn't support envvar conversion so we use wine for shc
 # wine crashes asmsh, and asmsh doesn't use the envvars
