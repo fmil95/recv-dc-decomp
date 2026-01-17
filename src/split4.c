@@ -645,7 +645,7 @@ INLINE_ASM(_InitSoundProgram, 0x160, "asm/nonmatching/./split4/_InitSoundProgram
 INLINE_ASM(_ExitSoundProgram, 0x5a, "asm/nonmatching/./split4/_ExitSoundProgram.src");
 
 // MERGE_LIST([['_lbl_8C10228C', '_lbl_8C104740'], ['_lbl_8C179DF2', '_lbl_8C104744'], ['_lbl_8C326288', '_lbl_8C104748'], ['_lbl_8C1684EC', '_lbl_8C10472C'], ['_syFree', '_lbl_8C10474C'], ['_lbl_8C107C6A', '_lbl_8C104730'], ['_lbl_8C128DBA', '_lbl_8C104734'], ['_lbl_8C103D50', '_lbl_8C104738'], ['_lbl_8C1038C4', '_lbl_8C10473C']]);
-INLINE_ASM(_AdvSetSoundMode, 0x118, "asm/nonmatching/./split4/_AdvSetSoundMode.src");
+INLINE_ASM(_func_8C1046C2, 0x118, "asm/nonmatching/./split4/_func_8C1046C2.src");
 
 // MERGE_LIST([['_lbl_8C1683D4', '_lbl_8C104900'], ['_sys', '_lbl_8C104904'], ['_lbl_8C10399C', '_lbl_8C1048FC']]);
 INLINE_ASM(_func_8C1047DA, 0x2c, "asm/nonmatching/./split4/_func_8C1047DA.src");
@@ -1725,7 +1725,7 @@ INLINE_ASM(_func_8C123AD0, 0x4, "asm/nonmatching/./split4/_func_8C123AD0.src");
 
 INLINE_ASM(_AdvGetResourcePtr, 0xa, "asm/nonmatching/./split4/_AdvGetResourcePtr.src");
 
-INLINE_ASM(_AdvSetSoundMode_, 0x20, "asm/nonmatching/./split4/_AdvSetSoundMode_.src");
+INLINE_ASM(_AdvSetSoundMode, 0x20, "asm/nonmatching/./split4/_AdvSetSoundMode.src");
 
 // MERGE_LIST([['_AdvWork', '_lbl_8C123B40'], ["h'00A400A7", 167], ['_syCfgSetSoundMode', '_lbl_8C123B54']]);
 INLINE_ASM(_AdvCheckSoftReset, 0x78, "asm/nonmatching/./split4/_AdvCheckSoftReset.src");
@@ -1850,7 +1850,7 @@ INLINE_ASM(_AdvEasyReleaseTexture, 0x4, "asm/nonmatching/./split4/_AdvEasyReleas
 
 INLINE_ASM(_AdvEasyReleaseAllTexture, 0x30, "asm/nonmatching/./split4/_AdvEasyReleaseAllTexture.src");
 
-// MERGE_LIST([["h'000000B3", 179], ['_sys', '_lbl_8C12497C'], ['_AdvWork', '_lbl_8C12496C'], ['_AdvEasyReleaseAllTexture_', '_lbl_8C124978']]);
+// MERGE_LIST([["h'000000B3", 179], ['_sys', '_lbl_8C12497C'], ['_AdvWork', '_lbl_8C12496C'], ['_njReleaseTextureAll', '_lbl_8C124978']]);
 INLINE_ASM(_func_8C1248FC, 0x64, "asm/nonmatching/./split4/_func_8C1248FC.src");
 
 // MERGE_LIST([['_lbl_8C19CA68', '_lbl_8C124980'], ['_syFree', '_lbl_8C124984'], ["h'4E4A544C", '_lbl_8C124988'], ["h'4E4A434D", '_lbl_8C12498C'], ["h'2A2A2A2A", '_lbl_8C124990']]);
@@ -1936,12 +1936,12 @@ INLINE_ASM(_DisplayOptionPlate, 0x3a, "asm/nonmatching/./split4/_DisplayOptionPl
 // MERGE_LIST([['_DisplayOptionPlateLevel1', '_lbl_8C128460'], ['_DisplayOptionPlateLevel0', '_lbl_8C12845C']]);
 INLINE_ASM(_func_8C12845A, 0x524, "asm/nonmatching/./split4/_func_8C12845A.src");
 
-// MERGE_LIST([["h'00A50095", 149], ["h'009C00A5", 165], ['_AdvEasyReleaseAllTexture', '_lbl_8C128A1C'], ['_AdvEasyReleaseTexture', '_lbl_8C128A20'], ['_AllFreeAdvMemory', '_lbl_8C128A24'], ['_AdvSetSoundMode_', '_lbl_8C128A28']]);
+// MERGE_LIST([["h'00A50095", 149], ["h'009C00A5", 165], ['_AdvEasyReleaseAllTexture', '_lbl_8C128A1C'], ['_AdvEasyReleaseTexture', '_lbl_8C128A20'], ['_AllFreeAdvMemory', '_lbl_8C128A24'], ['_AdvSetSoundMode', '_lbl_8C128A28']]);
 INLINE_ASM(_func_8C12897E, 0xce, "asm/nonmatching/./split4/_func_8C12897E.src");
 
 INLINE_ASM(_Adv_ChangeDiscScreen, 0x2fa, "asm/nonmatching/./split4/_Adv_ChangeDiscScreen.src");
 
-// MERGE_LIST([["h'009E00A4", 164], ["h'0000009E", 158], ['_StopAdvScreenSaver', '_lbl_8C128D50'], ['_CheckAdvScreenSaverStopKey', '_lbl_8C128D54'], ['_AdvEasyReleaseTexture', '_lbl_8C128D58'], ['_AdvEasyReleaseAllTexture', '_lbl_8C128D5C'], ['_AllFreeAdvMemory', '_lbl_8C128D60'], ['_AdvSetSoundMode', '_lbl_8C128D64'], ["h'FFFDFFFF", '_lbl_8C128D68'], ["h'FFFEFFFF", '_lbl_8C128D6C']]);
+// MERGE_LIST([["h'009E00A4", 164], ["h'0000009E", 158], ['_StopAdvScreenSaver', '_lbl_8C128D50'], ['_CheckAdvScreenSaverStopKey', '_lbl_8C128D54'], ['_AdvEasyReleaseTexture', '_lbl_8C128D58'], ['_AdvEasyReleaseAllTexture', '_lbl_8C128D5C'], ['_AllFreeAdvMemory', '_lbl_8C128D60'], ['_lbl_8C1046C2', '_lbl_8C128D64'], ["h'FFFDFFFF", '_lbl_8C128D68'], ["h'FFFEFFFF", '_lbl_8C128D6C']]);
 INLINE_ASM(_Adv_SoundMuseum, 0x4, "asm/nonmatching/./split4/_Adv_SoundMuseum.src");
 
 INLINE_ASM(_func_8C128D4A, 0x70, "asm/nonmatching/./split4/_func_8C128D4A.src");

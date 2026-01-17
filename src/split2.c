@@ -1,11 +1,3 @@
-INLINE_ASM(_bhMainSequence, 0x6b8, "asm/nonmatching/./split2/_bhMainSequence.src");
-
-INLINE_ASM(_bhAllDrawModel, 0x24c, "asm/nonmatching/./split2/_bhAllDrawModel.src");
-
-INLINE_ASM(_func_8C01AD68, 0x13c, "asm/nonmatching/./split2/_func_8C01AD68.src");
-
-INLINE_ASM(_bhEtcMirrorDrawModel, 0x144, "asm/nonmatching/./split2/_bhEtcMirrorDrawModel.src");
-
 INLINE_ASM(_func_8C01AFE8, 0x20e, "asm/nonmatching/./split2/_func_8C01AFE8.src");
 
 INLINE_ASM(_bhSetPlayer, 0x54a, "asm/nonmatching/./split2/_bhSetPlayer.src");
