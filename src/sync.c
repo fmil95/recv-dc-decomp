@@ -1,3 +1,5 @@
+#define NULL 0
+
 void bhControlEOR();
 void bhControlVSync();
 
@@ -8,9 +10,14 @@ void bhInitVSync()
 }
 
 MERGE_LIST([['_bhControlVSync', '_lbl_8C1311A8'], ['_njSetEORFunction', '_lbl_8C1311B4'], ['_njSetVSyncFunction', '_lbl_8C1311AC'], ['_bhControlEOR', '_lbl_8C1311B0']]);
-INLINE_ASM(_bhClearVSync, 0x10, "asm/nonmatching/./sync/_bhClearVSync.src");
 
-// MERGE_LIST([['_njSetEORFunction', '_lbl_8C1311B4'], ['_njSetVSyncFunction', '_lbl_8C1311AC']]);
+void bhClearVSync()
+{
+    njSetVSyncFunction(NULL);
+    njSetEORFunction(NULL);
+}
+
+MERGE_LIST([['_njSetEORFunction', '_lbl_8C1311B4'], ['_njSetVSyncFunction', '_lbl_8C1311AC']]);
 INLINE_ASM(_func_8C13110A, 0x62, "asm/nonmatching/./sync/_func_8C13110A.src");
 
 // MERGE_LIST([['_lbl_8C1020B6', '_lbl_8C1311C0'], ["h'00040000", '_lbl_8C1311C4'], ['_njExitTexture', '_lbl_8C1311C8'], ['_njExitPrint', '_lbl_8C1311CC'], ['_sbExitSystem', '_lbl_8C1311D0'], ['_syBtExit', '_lbl_8C1311D4'], ['_sys', '_lbl_8C1311B8'], ["h'00010000", '_lbl_8C1311BC']]);
