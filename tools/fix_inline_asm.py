@@ -88,19 +88,11 @@ with open(sys.argv[1], "r") as file:
                     label_dict[lists[0]] = lists[1]
 
             # find the last data section (surrounded by ALIGN 32's) and the start of the func
-            align_count = 0
             function_start_index = 0
-            stop_align = 0
             align_start_index = -1
             for rename_line_index in range(len(out_lines)-1, -1, -1):
                 rename_line = out_lines[rename_line_index]
                 
-                if "ALIGN" in rename_line:
-                    align_count += 1
-                    if align_count == 1:
-                        stop_align = rename_line_index
-                
-                #if align_count == 1:
                 if ":" in rename_line and align_start_index == -1:
                     align_start_index = rename_line_index              
 
@@ -123,17 +115,24 @@ with open(sys.argv[1], "r") as file:
             for label_discovery_index in range(align_start_index + 1, end_index, 1):
                 label_discovery_line = out_lines[label_discovery_index]
                 print(label_discovery_line)
-                sym = label_discovery_line.split(".DATA.")[1][1:].strip()
 
-                if i == 0:
-                    label_offset_dict[label_rename_name] = sym
-                else:
-                    label_offset_dict[label_rename_name+"+"+str(i)] = sym
-
-                if ".L" in label_discovery_line:
-                    i += 4
-                else:
+                # i handles the offset inside the literal label
+                # res.w generates to align to 4 for non-extra=800 compiled shc stuff
+                if ".RES.W" in label_discovery_line:
                     i += 2
+
+                if ".DATA." in label_discovery_line:
+                    sym = label_discovery_line.split(".DATA.")[1][1:].strip()
+
+                    if i == 0:
+                        label_offset_dict[label_rename_name] = sym
+                    else:
+                        label_offset_dict[label_rename_name+"+"+str(i)] = sym
+
+                    if ".L" in label_discovery_line:
+                        i += 4
+                    else:
+                        i += 2
 
             if "ALIGN" in out_lines[align_start_index - 1]:
                 out_lines = out_lines[:align_start_index-1]
@@ -185,6 +184,7 @@ with open(sys.argv[1], "w") as file:
         # remove .end
         out_lines = out_lines[:len(out_lines)-1]
         # this MIGHT break stuff in the future, not sure
+        # currently it fixed an alignment issue in al_field.c
         # out_lines.append("\t\t.ALIGN 4\n")
         for includeFile in import_queue:
             with open(includeFile, "r") as included:
