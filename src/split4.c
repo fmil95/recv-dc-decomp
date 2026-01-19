@@ -193,7 +193,7 @@ INLINE_ASM(_func_8C101E64, 0x74, "asm/nonmatching/./split4/_func_8C101E64.src");
 
 INLINE_ASM(_ReadFileEx, 0x56, "asm/nonmatching/./split4/_ReadFileEx.src");
 
-// MERGE_LIST([["h'82B007FF", 2047], ['_lbl_8C1682B0', '_lbl_8C101FE4'], ['_lbl_8C325978', '_lbl_8C101FE8'], ['_gdFsOpen', '_lbl_8C101FEC'], ['_gdFsGetFileSize', '_lbl_8C101FF0'], ['_gdFsRead', '_lbl_8C101FF4'], ['_gdFsClose', '_lbl_8C101FF8']]);
+// MERGE_LIST([["h'82B007FF", 2047], ['_DiscOpenTrayFlag', '_lbl_8C101FE4'], ['_lbl_8C325978', '_lbl_8C101FE8'], ['_gdFsOpen', '_lbl_8C101FEC'], ['_gdFsGetFileSize', '_lbl_8C101FF0'], ['_gdFsRead', '_lbl_8C101FF4'], ['_gdFsClose', '_lbl_8C101FF8']]);
 INLINE_ASM(_func_8C101F2E, 0x4, "asm/nonmatching/./split4/_func_8C101F2E.src");
 
 INLINE_ASM(_func_8C101F32, 0x46, "asm/nonmatching/./split4/_func_8C101F32.src");
@@ -224,7 +224,7 @@ INLINE_ASM(_func_8C1020B0, 0x6, "asm/nonmatching/./split4/_func_8C1020B0.src");
 // MERGE_LIST([['_lbl_8C177382', '_lbl_8C1021E0']]);
 INLINE_ASM(_func_8C1020B6, 0x3a, "asm/nonmatching/./split4/_func_8C1020B6.src");
 
-// MERGE_LIST([['_lbl_8C1682B0', '_lbl_8C1021F0'], ['_lbl_8C325A0C', '_lbl_8C1021E8'], ['_lbl_8C1772E8', '_lbl_8C1021E4'], ['_lbl_8C177300', '_lbl_8C1021EC']]);
+// MERGE_LIST([['_DiscOpenTrayFlag', '_lbl_8C1021F0'], ['_StatusUpdateCounter', '_lbl_8C1021E8'], ['_lbl_8C1772E8', '_lbl_8C1021E4'], ['_lbl_8C177300', '_lbl_8C1021EC']]);
 INLINE_ASM(_func_8C1020F0, 0xc2, "asm/nonmatching/./split4/_func_8C1020F0.src");
 
 // MERGE_LIST([['_syBtGetBootSystemID', '_lbl_8C102200'], ['_lbl_8C1772E8', '_lbl_8C1021E4'], ['_lbl_8C17A03E', '_lbl_8C102204'], ['_lbl_8C133184', '_lbl_8C102208'], ['_lbl_8C1331FC', '_lbl_8C10220C'], ['_lbl_8C177190', '_lbl_8C102210'], ['_lbl_8C1682B4', '_lbl_8C1021F4'], ['_lbl_8C1682B8', '_lbl_8C1021F8'], ['_lbl_8C17A19C', '_lbl_8C1021FC']]);
