@@ -30,6 +30,8 @@ segments:
       - [0xE7DB4, asm, flag]
       - [0xE7E0C, asm, light]
       - [0xE9C08, asm, split4]
+      - [0xF43B8, asm, sdfunc]
+      - [0xF7D20, asm, split5]
       - [0x1210E8, asm, sync]
       - [0x1216B4, asm, end]
       - [0x126948, rodata]
