@@ -1,32 +1,3 @@
-INLINE_ASM(_func_8C0F7E0C, 0x48, "asm/nonmatching/./split4/_func_8C0F7E0C.src");
-
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C0F7EB0'], ["h'00B40084", 132], ["h'008400E0", 224]]);
-INLINE_ASM(_func_8C0F7E54, 0x38, "asm/nonmatching/./split4/_func_8C0F7E54.src");
-
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C0F7EB0'], ["h'000000B4", 180], ["h'008400E0", 224]]);
-INLINE_ASM(_func_8C0F7E8C, 0x1ac, "asm/nonmatching/./split4/_func_8C0F7E8C.src");
-
-INLINE_ASM(_bhSetLightTab, 0x152, "asm/nonmatching/./split4/_bhSetLightTab.src");
-
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C0F81C0'], ['_lbl_8C0F9BBE', '_lbl_8C0F81C4'], ["h'11F800E0", 224]]);
-INLINE_ASM(_func_8C0F818A, 0xe6, "asm/nonmatching/./split4/_func_8C0F818A.src");
-
-// MERGE_LIST([['_lbl_8C19E2A6', '_lbl_8C0F8300'], ['_lbl_8C19E298', '_lbl_8C0F8304'], ["h'75C83FFF", 16383], ['_lbl_8C19E260', '_lbl_8C0F8308'], ['_njCos', '_lbl_8C0F82E8'], ['_lbl_8C19CD1E', '_lbl_8C0F82EC'], ['_lbl_8C19CD10', '_lbl_8C0F82F0'], ["h'3F333333", '_lbl_8C0F82F4'], ["h'3E99999A", '_lbl_8C0F82F8'], ['_lbl_8C19CCD8', '_lbl_8C0F82FC']]);
-INLINE_ASM(_bhControlLight, 0xeee, "asm/nonmatching/./split4/_bhControlLight.src");
-
-// MERGE_LIST([["h'00010000", '_lbl_8C0F919C'], ["h'0002892C", '_lbl_8C0F91A0'], ['_lbl_8C19D688', '_lbl_8C0F91A4'], ["h'00028920", '_lbl_8C0F91A8'], ['_lbl_8C19D6D4', '_lbl_8C0F91AC'], ['_lbl_8C19D642', '_lbl_8C0F91B0'], ['_lbl_8C19FB40', '_lbl_8C0F91B4'], ['_lbl_8C19FB8C', '_lbl_8C0F91B8'], ['_lbl_8C19FAFA', '_lbl_8C0F91BC'], ["h'00028918", '_lbl_8C0F91C0'], ['_lbl_8C241054', '_lbl_8C0F91C4'], ['_njCalcVector', '_lbl_8C0F91C8'], ['_lbl_8C19CD1E', '_lbl_8C0F91CC'], ['_lbl_8C19CD10', '_lbl_8C0F91D0'], ['_lbl_8C19CCD8', '_lbl_8C0F91D4'], ['_lbl_8C19E2A6', '_lbl_8C0F91D8'], ['_lbl_8C19E298', '_lbl_8C0F91DC'], ['_lbl_8C19E260', '_lbl_8C0F91E0'], ['_lbl_8C19D620', '_lbl_8C0F91E4'], ['_lbl_8C19D722', '_lbl_8C0F91E8'], ['_lbl_8C19FAD8', '_lbl_8C0F91EC'], ['_lbl_8C19FBDA', '_lbl_8C0F91F0']]);
-INLINE_ASM(_func_8C0F915E, 0x66c, "asm/nonmatching/./split4/_func_8C0F915E.src");
-
-// MERGE_LIST([['_lbl_8C19FAD8', '_lbl_8C0F9980'], ['_lbl_8C19FBDA', '_lbl_8C0F9984'], ['_lbl_8C19D620', '_lbl_8C0F9978'], ["h'00010000", '_lbl_8C0F9930'], ["h'0002892C", '_lbl_8C0F9934'], ['_lbl_8C19D688', '_lbl_8C0F9938'], ['_lbl_8C19D722', '_lbl_8C0F997C'], ["h'00028920", '_lbl_8C0F993C'], ['_lbl_8C19D6D4', '_lbl_8C0F9940'], ['_lbl_8C19D642', '_lbl_8C0F9944'], ['_lbl_8C19FB40', '_lbl_8C0F9948'], ['_lbl_8C19FB8C', '_lbl_8C0F994C'], ['_lbl_8C19FAFA', '_lbl_8C0F9950'], ["h'00028918", '_lbl_8C0F9954'], ['_lbl_8C241054', '_lbl_8C0F9958'], ['_njCalcVector', '_lbl_8C0F995C'], ['_lbl_8C19CD1E', '_lbl_8C0F9960'], ['_lbl_8C19CD10', '_lbl_8C0F9964'], ['_lbl_8C19CCD8', '_lbl_8C0F9968'], ['_lbl_8C19E2A6', '_lbl_8C0F996C'], ['_lbl_8C19E298', '_lbl_8C0F9970'], ['_lbl_8C19E260', '_lbl_8C0F9974']]);
-INLINE_ASM(_bhSetLight, 0x228, "asm/nonmatching/./split4/_bhSetLight.src");
-
-// MERGE_LIST([["h'00028930", '_lbl_8C0F9C34'], ['_lbl_8C241054', '_lbl_8C0F9C38'], ['_njSetMatrix', '_lbl_8C0F9C3C'], ['_lbl_8C19D722', '_lbl_8C0F9C40'], ['_lbl_8C19FBDA', '_lbl_8C0F9C44']]);
-INLINE_ASM(_func_8C0F99F2, 0x1cc, "asm/nonmatching/./split4/_func_8C0F99F2.src");
-
-// MERGE_LIST([['_lbl_8C19E260', '_lbl_8C0F9C80'], ["h'00028924", '_lbl_8C0F9C84'], ["h'0002892C", '_lbl_8C0F9C88'], ["h'00028920", '_lbl_8C0F9C8C'], ['_lbl_8C19D6D4', '_lbl_8C0F9C90'], ['_lbl_8C19FB8C', '_lbl_8C0F9C94'], ["h'00028918", '_lbl_8C0F9C98'], ['_njCalcVector', '_lbl_8C0F9C9C'], ["h'00028934", '_lbl_8C0F9CA0'], ["h'00028930", '_lbl_8C0F9C34'], ['_lbl_8C241054', '_lbl_8C0F9C38'], ['_njSetMatrix', '_lbl_8C0F9C3C'], ['_lbl_8C19D722', '_lbl_8C0F9C40'], ['_lbl_8C19FBDA', '_lbl_8C0F9C44'], ['_sys', '_lbl_8C0F9C48'], ["h'3F19999A", '_lbl_8C0F9C4C'], ['_lbl_8C0F818A', '_lbl_8C0F9C50'], ['_lbl_8C19D688', '_lbl_8C0F9C54'], ['_lbl_8C19FB40', '_lbl_8C0F9C58'], ["h'3F000000", '_lbl_8C0F9C5C'], ["h'00010000", '_lbl_8C0F9C60'], ['_lbl_8C19D642', '_lbl_8C0F9C64'], ['_lbl_8C19FAFA', '_lbl_8C0F9C68'], ['_lbl_8C19CD1E', '_lbl_8C0F9C6C'], ['_lbl_8C19CD10', '_lbl_8C0F9C70'], ['_lbl_8C19CCD8', '_lbl_8C0F9C74'], ['_lbl_8C19E2A6', '_lbl_8C0F9C78'], ['_lbl_8C19E298', '_lbl_8C0F9C7C']]);
-INLINE_ASM(_func_8C0F9BBE, 0x4a, "asm/nonmatching/./split4/_func_8C0F9BBE.src");
-
-// MERGE_LIST([['_lbl_8C13A51C', '_lbl_8C0F9CA4'], ['__quick_odd_mvn', '_lbl_8C0F9CA8'], ['_njUnitMatrix', '_lbl_8C0F9CAC'], ['_njRotateZ', '_lbl_8C0F9CB0'], ['_njRotateY', '_lbl_8C0F9CB4'], ['_njRotateX', '_lbl_8C0F9CB8'], ['_njCalcPoint', '_lbl_8C0F9CBC']]);
 INLINE_ASM(_func_8C0F9C08, 0x176, "asm/nonmatching/./split4/_func_8C0F9C08.src");
 
 // MERGE_LIST([["h'00028934", '_lbl_8C0F9E60'], ['_njScalor', '_lbl_8C0F9E64'], ["h'00028930", '_lbl_8C0F9E68'], ["h'3F666666", '_lbl_8C0F9E6C'], ["h'437F0000", '_lbl_8C0F9E70'], ["h'00028928", '_lbl_8C0F9E5C']]);
@@ -39,7 +10,7 @@ INLINE_ASM(_func_8C0F9FE4, 0x138, "asm/nonmatching/./split4/_func_8C0F9FE4.src")
 
 INLINE_ASM(_bhControlObjItm, 0x428, "asm/nonmatching/./split4/_bhControlObjItm.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C0FA5FC'], ["h'03902000", 8192], ["h'00840390", 912], ["h'03D40084", 132], ["h'03DC03D4", 980], ["h'04DC03DC", 988], ["h'009004DC", 1244], ["h'03BA0090", 144], ['_lbl_8C1330F0', '_lbl_8C0FA5E8'], ["h'47000000", '_lbl_8C0FA5EC'], ["h'41F00000", '_lbl_8C0FA5F0'], ["h'00200000", '_lbl_8C0FA5F4'], ['_bhCalcModel', '_lbl_8C0FA5F8']]);
+// MERGE_LIST([['_rom', '_lbl_8C0FA5FC'], ["h'03902000", 8192], ["h'00840390", 912], ["h'03D40084", 132], ["h'03DC03D4", 980], ["h'04DC03DC", 988], ["h'009004DC", 1244], ["h'03BA0090", 144], ['_lbl_8C1330F0', '_lbl_8C0FA5E8'], ["h'47000000", '_lbl_8C0FA5EC'], ["h'41F00000", '_lbl_8C0FA5F0'], ["h'00200000", '_lbl_8C0FA5F4'], ['_bhCalcModel', '_lbl_8C0FA5F8']]);
 INLINE_ASM(_func_8C0FA544, 0x492, "asm/nonmatching/./split4/_func_8C0FA544.src");
 
 // MERGE_LIST([["h'02E40090", 144], ['_njSetMatrix', '_lbl_8C0FAA08'], ["h'00010000", '_lbl_8C0FAA0C'], ['_lbl_8C19D688', '_lbl_8C0FAA10'], ['_lbl_8C19FAFA', '_lbl_8C0FAA14'], ["h'0002892C", '_lbl_8C0FAA18'], ["h'00028920", '_lbl_8C0FAA1C'], ['_lbl_8C19D6D4', '_lbl_8C0FAA20'], ['_lbl_8C19D722', '_lbl_8C0FAA24'], ["h'02D8009C", 156], ['_lbl_8C19FB8C', '_lbl_8C0FAA28'], ['_lbl_8C19FBDA', '_lbl_8C0FAA2C'], ['_lbl_8C014E8C', '_lbl_8C0FAA30'], ['_sys', '_lbl_8C0FAA34'], ['_njFogEnable', '_lbl_8C0FAA38'], ["h'04DC0084", 132], ["h'008402D8", 728], ["h'009004DC", 1244]]);
@@ -49,7 +20,7 @@ INLINE_ASM(_func_8C0FAB44, 0x138, "asm/nonmatching/./split4/_func_8C0FAB44.src")
 
 INLINE_ASM(_func_8C0FAC7C, 0x90, "asm/nonmatching/./split4/_func_8C0FAC7C.src");
 
-// MERGE_LIST([["h'03BC03CC", 972], ["h'040403BC", 956], ['_sys', '_lbl_8C0FAD48'], ['_lbl_8C1411F8', '_lbl_8C0FAD4C'], ['_lbl_8C19D67A', '_lbl_8C0FAD50'], ['_lbl_8C19FB32', '_lbl_8C0FAD54'], ["h'00026AEC", '_lbl_8C0FAD5C'], ["h'00026B74", '_lbl_8C0FAD58'], ["h'03DC03B9", 953], ["h'03CC03DC", 988]]);
+// MERGE_LIST([["h'03BC03CC", 972], ["h'040403BC", 956], ['_sys', '_lbl_8C0FAD48'], ['_rom', '_lbl_8C0FAD4C'], ['_lbl_8C19D67A', '_lbl_8C0FAD50'], ['_lbl_8C19FB32', '_lbl_8C0FAD54'], ["h'00026AEC", '_lbl_8C0FAD5C'], ["h'00026B74", '_lbl_8C0FAD58'], ["h'03DC03B9", 953], ["h'03CC03DC", 988]]);
 INLINE_ASM(_func_8C0FAD0C, 0x58, "asm/nonmatching/./split4/_func_8C0FAD0C.src");
 
 INLINE_ASM(_func_8C0FAD64, 0xc8, "asm/nonmatching/./split4/_func_8C0FAD64.src");
@@ -81,7 +52,7 @@ INLINE_ASM(_func_8C0FC5B0, 0x13c, "asm/nonmatching/./split4/_func_8C0FC5B0.src")
 
 INLINE_ASM(_func_8C0FC6EC, 0x3dc, "asm/nonmatching/./split4/_func_8C0FC6EC.src");
 
-// MERGE_LIST([["h'00B000C0", 192], ["h'039000B0", 176], ["h'03D80390", 912], ["h'02D803D8", 984], ['_lbl_8C1411F8', '_lbl_8C0FCB38'], ["h'3F400000", '_lbl_8C0FCB3C'], ['_njSqrt', '_lbl_8C0FCB40'], ["h'41A00000", '_lbl_8C0FCB44'], ["h'0002A5F0", '_lbl_8C0FCB48']]);
+// MERGE_LIST([["h'00B000C0", 192], ["h'039000B0", 176], ["h'03D80390", 912], ["h'02D803D8", 984], ['_rom', '_lbl_8C0FCB38'], ["h'3F400000", '_lbl_8C0FCB3C'], ['_njSqrt', '_lbl_8C0FCB40'], ["h'41A00000", '_lbl_8C0FCB44'], ["h'0002A5F0", '_lbl_8C0FCB48']]);
 INLINE_ASM(_func_8C0FCAC8, 0x52, "asm/nonmatching/./split4/_func_8C0FCAC8.src");
 
 // MERGE_LIST([['_sys', '_lbl_8C0FCB4C'], ["h'03D402D8", 728], ['_bhCkFlg', '_lbl_8C0FCB50'], ["h'03FF03D4", 980], ["h'FC0003FF", 1023], ['_lbl_8C013FBC', '_lbl_8C0FCB54'], ["h'0084FC00", 64512]]);
@@ -89,7 +60,7 @@ INLINE_ASM(_func_8C0FCB1A, 0x3e, "asm/nonmatching/./split4/_func_8C0FCB1A.src");
 
 INLINE_ASM(_func_8C0FCB58, 0xe8, "asm/nonmatching/./split4/_func_8C0FCB58.src");
 
-// MERGE_LIST([["h'00028A9C", '_lbl_8C0FCCA0'], ["h'01000000", '_lbl_8C0FCCA4'], ["h'008103D4", 980], ["h'01200081", 129], ['_lbl_8C1411F8', '_lbl_8C0FCCA8'], ["h'02D80120", 288], ["h'008002D8", 728], ["h'40800000", '_lbl_8C0FCCAC'], ["h'41700000", '_lbl_8C0FCCB0'], ['_sys', '_lbl_8C0FCC94'], ["h'0001B138", '_lbl_8C0FCCB4'], ["h'00100000", '_lbl_8C0FCC98'], ["h'00028A90", '_lbl_8C0FCC9C']]);
+// MERGE_LIST([["h'00028A9C", '_lbl_8C0FCCA0'], ["h'01000000", '_lbl_8C0FCCA4'], ["h'008103D4", 980], ["h'01200081", 129], ['_rom', '_lbl_8C0FCCA8'], ["h'02D80120", 288], ["h'008002D8", 728], ["h'40800000", '_lbl_8C0FCCAC'], ["h'41700000", '_lbl_8C0FCCB0'], ['_sys', '_lbl_8C0FCC94'], ["h'0001B138", '_lbl_8C0FCCB4'], ["h'00100000", '_lbl_8C0FCC98'], ["h'00028A90", '_lbl_8C0FCC9C']]);
 INLINE_ASM(_func_8C0FCC40, 0x77e, "asm/nonmatching/./split4/_func_8C0FCC40.src");
 
 // MERGE_LIST([["h'040402D8", 728], ["h'03D40404", 1028], ["h'2ED803D4", 980], ['_lbl_8C132ED8', '_lbl_8C0FD3C8'], ["h'47800000", '_lbl_8C0FD3CC'], ["h'40C90FD8", '_lbl_8C0FD3D0'], ["h'43160000", '_lbl_8C0FD3D4'], ["h'43B40000", '_lbl_8C0FD3D8']]);
@@ -97,7 +68,7 @@ INLINE_ASM(_func_8C0FD3BE, 0x4, "asm/nonmatching/./split4/_func_8C0FD3BE.src");
 
 INLINE_ASM(_func_8C0FD3C2, 0x26, "asm/nonmatching/./split4/_func_8C0FD3C2.src");
 
-// MERGE_LIST([['_npSetMemory', '_lbl_8C0FD480'], ["h'11F803EC", 1004], ['_lbl_8C1411F8', '_lbl_8C0FD47C']]);
+// MERGE_LIST([['_npSetMemory', '_lbl_8C0FD480'], ["h'11F803EC", 1004], ['_rom', '_lbl_8C0FD47C']]);
 INLINE_ASM(_func_8C0FD3E8, 0x2c, "asm/nonmatching/./split4/_func_8C0FD3E8.src");
 
 // MERGE_LIST([['_sys', '_lbl_8C0FD484'], ['_bhInitRoomChangeSystem', '_lbl_8C0FD488'], ['_bhInitCamera', '_lbl_8C0FD48C'], ['_lbl_8C040CE8', '_lbl_8C0FD490'], ['_lbl_8C0B84BC', '_lbl_8C0FD494']]);
@@ -131,7 +102,7 @@ INLINE_ASM(_bhStartDoorDemo, 0x19e, "asm/nonmatching/./split4/_bhStartDoorDemo.s
 
 INLINE_ASM(_func_8C0FEA50, 0x58, "asm/nonmatching/./split4/_func_8C0FEA50.src");
 
-// MERGE_LIST([['_sys', '_lbl_8C0FEB80'], ["h'008A0100", 256], ['_lbl_8C1411F8', '_lbl_8C0FEB84'], ["h'0001B17C", '_lbl_8C0FEB88'], ['_lbl_8C129B08', '_lbl_8C0FEB8C'], ['_bhChangeHWSetting', '_lbl_8C0FEB90'], ['_lbl_8C129D92', '_lbl_8C0FEB94']]);
+// MERGE_LIST([['_sys', '_lbl_8C0FEB80'], ["h'008A0100", 256], ['_rom', '_lbl_8C0FEB84'], ["h'0001B17C", '_lbl_8C0FEB88'], ['_lbl_8C129B08', '_lbl_8C0FEB8C'], ['_bhChangeHWSetting', '_lbl_8C0FEB90'], ['_lbl_8C129D92', '_lbl_8C0FEB94']]);
 INLINE_ASM(_func_8C0FEAA8, 0x100, "asm/nonmatching/./split4/_func_8C0FEAA8.src");
 
 INLINE_ASM(_func_8C0FEBA8, 0xa8, "asm/nonmatching/./split4/_func_8C0FEBA8.src");
@@ -712,7 +683,7 @@ INLINE_ASM(_func_8C104E38, 0x3c, "asm/nonmatching/./split4/_func_8C104E38.src");
 // MERGE_LIST([["h'47800000", '_lbl_8C104F40'], ['_lbl_8C132ED8', '_lbl_8C104F3C'], ["h'40C90FD8", '_lbl_8C104F44']]);
 INLINE_ASM(_func_8C104E74, 0x60, "asm/nonmatching/./split4/_func_8C104E74.src");
 
-// MERGE_LIST([["h'01FE0100", 256], ['_lbl_8C1411F8', '_lbl_8C104F48'], ['_cam', '_lbl_8C104F4C'], ["h'3DCCCCCD", '_lbl_8C104F50'], ['_lbl_8C02D260', '_lbl_8C104F54']]);
+// MERGE_LIST([["h'01FE0100", 256], ['_rom', '_lbl_8C104F48'], ['_cam', '_lbl_8C104F4C'], ["h'3DCCCCCD", '_lbl_8C104F50'], ['_lbl_8C02D260', '_lbl_8C104F54']]);
 INLINE_ASM(_Get3DSoundParameter, 0x106, "asm/nonmatching/./split4/_Get3DSoundParameter.src");
 
 // MERGE_LIST([["h'43B40000", '_lbl_8C1051C0'], ['_lbl_8C132960', '_lbl_8C1051E0'], ["h'47800000", '_lbl_8C1051C4'], ['_lbl_8C16874A', '_lbl_8C1051D8'], ['_lbl_8C327A10', '_lbl_8C1051C8'], ["h'40A00000", '_lbl_8C1051CC'], ['_lbl_8C168706', '_lbl_8C1051D0'], ['_lbl_8C168508', '_lbl_8C1051D4'], ['_lbl_8C241010', '_lbl_8C1051BC'], ['_lbl_8C3262C9', '_lbl_8C1051DC']]);
@@ -1483,7 +1454,7 @@ INLINE_ASM(_func_8C119A6C, 0x8c, "asm/nonmatching/./split4/_func_8C119A6C.src");
 
 INLINE_ASM(_func_8C119AF8, 0x2d2, "asm/nonmatching/./split4/_func_8C119AF8.src");
 
-// MERGE_LIST([['_lbl_8C11B37C', '_lbl_8C119E00'], ['_lbl_8C19D620', '_lbl_8C119E04'], ['_CallSystemSe', '_lbl_8C119E08'], ['_lbl_8C12979C', '_lbl_8C119DF8'], ["h'0540053C", 1340], ["h'05440540", 1344], ["h'05480544", 1348], ["h'01B00548", 1352], ["h'02CC01B0", 432], ["h'02C002CC", 716], ["h'02D002C0", 704], ['_bhGetFreeMemory', '_lbl_8C119DFC'], ["h'02D402D0", 720], ["h'A6AC02D4", 724], ["h'0002A6AC", '_lbl_8C119DE0'], ["h'0002A6B0", '_lbl_8C119DE4'], ["h'0002A6B4", '_lbl_8C119DE8'], ["h'0002A6B8", '_lbl_8C119DEC'], ['_lbl_8C1411F8', '_lbl_8C119DF0'], ["h'0001B17C", '_lbl_8C119DF4']]);
+// MERGE_LIST([['_lbl_8C11B37C', '_lbl_8C119E00'], ['_lbl_8C19D620', '_lbl_8C119E04'], ['_CallSystemSe', '_lbl_8C119E08'], ['_lbl_8C12979C', '_lbl_8C119DF8'], ["h'0540053C", 1340], ["h'05440540", 1344], ["h'05480544", 1348], ["h'01B00548", 1352], ["h'02CC01B0", 432], ["h'02C002CC", 716], ["h'02D002C0", 704], ['_bhGetFreeMemory', '_lbl_8C119DFC'], ["h'02D402D0", 720], ["h'A6AC02D4", 724], ["h'0002A6AC", '_lbl_8C119DE0'], ["h'0002A6B0", '_lbl_8C119DE4'], ["h'0002A6B4", '_lbl_8C119DE8'], ["h'0002A6B8", '_lbl_8C119DEC'], ['_rom', '_lbl_8C119DF0'], ["h'0001B17C", '_lbl_8C119DF4']]);
 INLINE_ASM(_func_8C119DCA, 0x4, "asm/nonmatching/./split4/_func_8C119DCA.src");
 
 INLINE_ASM(_func_8C119DCE, 0x10a4, "asm/nonmatching/./split4/_func_8C119DCE.src");
@@ -1611,7 +1582,7 @@ INLINE_ASM(_func_8C11D224, 0x20, "asm/nonmatching/./split4/_func_8C11D224.src");
 
 INLINE_ASM(_func_8C11D244, 0x86, "asm/nonmatching/./split4/_func_8C11D244.src");
 
-// MERGE_LIST([["h'000289B4", '_lbl_8C11D360'], ["h'FFF723FF", '_lbl_8C11D364'], ["h'DFFFCFFF", '_lbl_8C11D368'], ["h'10000200", 512], ['_sys', '_lbl_8C11D350'], ['_lbl_8C1411F8', '_lbl_8C11D354'], ["h'000289B8", '_lbl_8C11D358'], ["h'0001B3E0", '_lbl_8C11D35C']]);
+// MERGE_LIST([["h'000289B4", '_lbl_8C11D360'], ["h'FFF723FF", '_lbl_8C11D364'], ["h'DFFFCFFF", '_lbl_8C11D368'], ["h'10000200", 512], ['_sys', '_lbl_8C11D350'], ['_rom', '_lbl_8C11D354'], ["h'000289B8", '_lbl_8C11D358'], ["h'0001B3E0", '_lbl_8C11D35C']]);
 INLINE_ASM(_bhControlMessage, 0x774, "asm/nonmatching/./split4/_bhControlMessage.src");
 
 // MERGE_LIST([["h'01440400", 1024], ["h'0001B0B0", '_lbl_8C11DB0C'], ["h'000289BC", '_lbl_8C11DB10']]);
@@ -1627,7 +1598,7 @@ INLINE_ASM(_bhDispMessage, 0x1e0, "asm/nonmatching/./split4/_bhDispMessage.src")
 
 INLINE_ASM(_func_8C11DF98, 0x162, "asm/nonmatching/./split4/_func_8C11DF98.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C11E100'], ["h'0001B3E0", '_lbl_8C11E104'], ["h'0001B3E4", '_lbl_8C11E108'], ["h'0000FF00", '_lbl_8C11E10C'], ["h'0000FF01", '_lbl_8C11E110'], ["h'0000FF02", '_lbl_8C11E114'], ["h'0000FF03", '_lbl_8C11E118'], ["h'0000FF04", '_lbl_8C11E11C'], ["h'0000FE00", '_lbl_8C11E120'], ["h'0000FE01", '_lbl_8C11E124'], ["h'0000FE02", '_lbl_8C11E128'], ["h'0000FE03", '_lbl_8C11E12C'], ["h'0000FE04", '_lbl_8C11E130'], ["h'0000FE05", '_lbl_8C11E134'], ["h'0000FE06", '_lbl_8C11E138'], ["h'0000FE07", '_lbl_8C11E13C'], ["h'0000FE08", '_lbl_8C11E140'], ["h'0000FE09", '_lbl_8C11E144'], ["h'0000FE0A", '_lbl_8C11E148'], ["h'0000FE0B", '_lbl_8C11E14C'], ["h'0000FE0C", '_lbl_8C11E150'], ["h'0000FE0D", '_lbl_8C11E154'], ["h'0000FE0E", '_lbl_8C11E158'], ["h'0000FE0F", '_lbl_8C11E15C'], ["h'41F00000", '_lbl_8C11E160'], ["h'41600000", '_lbl_8C11E164'], ["h'41E00000", '_lbl_8C11E168'], ["h'0000FFFF", '_lbl_8C11E16C'], ['_sys', '_lbl_8C11E0FC']]);
+// MERGE_LIST([['_rom', '_lbl_8C11E100'], ["h'0001B3E0", '_lbl_8C11E104'], ["h'0001B3E4", '_lbl_8C11E108'], ["h'0000FF00", '_lbl_8C11E10C'], ["h'0000FF01", '_lbl_8C11E110'], ["h'0000FF02", '_lbl_8C11E114'], ["h'0000FF03", '_lbl_8C11E118'], ["h'0000FF04", '_lbl_8C11E11C'], ["h'0000FE00", '_lbl_8C11E120'], ["h'0000FE01", '_lbl_8C11E124'], ["h'0000FE02", '_lbl_8C11E128'], ["h'0000FE03", '_lbl_8C11E12C'], ["h'0000FE04", '_lbl_8C11E130'], ["h'0000FE05", '_lbl_8C11E134'], ["h'0000FE06", '_lbl_8C11E138'], ["h'0000FE07", '_lbl_8C11E13C'], ["h'0000FE08", '_lbl_8C11E140'], ["h'0000FE09", '_lbl_8C11E144'], ["h'0000FE0A", '_lbl_8C11E148'], ["h'0000FE0B", '_lbl_8C11E14C'], ["h'0000FE0C", '_lbl_8C11E150'], ["h'0000FE0D", '_lbl_8C11E154'], ["h'0000FE0E", '_lbl_8C11E158'], ["h'0000FE0F", '_lbl_8C11E15C'], ["h'41F00000", '_lbl_8C11E160'], ["h'41600000", '_lbl_8C11E164'], ["h'41E00000", '_lbl_8C11E168'], ["h'0000FFFF", '_lbl_8C11E16C'], ['_sys', '_lbl_8C11E0FC']]);
 INLINE_ASM(_func_8C11E0FA, 0x2ee, "asm/nonmatching/./split4/_func_8C11E0FA.src");
 
 INLINE_ASM(_func_8C11E3E8, 0x268, "asm/nonmatching/./split4/_func_8C11E3E8.src");
@@ -1732,10 +1703,10 @@ INLINE_ASM(_AdvCheckSoftReset, 0x78, "asm/nonmatching/./split4/_AdvCheckSoftRese
 
 INLINE_ASM(_AdvPushRoomTexture, 0x64, "asm/nonmatching/./split4/_AdvPushRoomTexture.src");
 
-// MERGE_LIST([["h'0001B17C", '_lbl_8C123CA0'], ['_bhCopyTexmem2MainmemSub', '_lbl_8C123CA4'], ['_njReleaseTexture', '_lbl_8C123CA8'], ["h'01B000A6", 166], ["h'010001B0", 432], ['_tbuf', '_lbl_8C123CAC'], ["h'04000100", 256], ['_bhGarbageTexture', '_lbl_8C123CB0'], ['_AdvWork', '_lbl_8C123C94'], ['_lbl_8C1411F8', '_lbl_8C123C98'], ['_sys', '_lbl_8C123C9C']]);
+// MERGE_LIST([["h'0001B17C", '_lbl_8C123CA0'], ['_bhCopyTexmem2MainmemSub', '_lbl_8C123CA4'], ['_njReleaseTexture', '_lbl_8C123CA8'], ["h'01B000A6", 166], ["h'010001B0", 432], ['_tbuf', '_lbl_8C123CAC'], ["h'04000100", 256], ['_bhGarbageTexture', '_lbl_8C123CB0'], ['_AdvWork', '_lbl_8C123C94'], ['_rom', '_lbl_8C123C98'], ['_sys', '_lbl_8C123C9C']]);
 INLINE_ASM(_AdvPopRoomTexture, 0x3a, "asm/nonmatching/./split4/_AdvPopRoomTexture.src");
 
-// MERGE_LIST([["h'0001B17C", '_lbl_8C123CA0'], ["h'01B000A6", 166], ["h'010001B0", 432], ['_AdvWork', '_lbl_8C123C94'], ['_bhCopyMainmem2Texmem', '_lbl_8C123CB4'], ['_lbl_8C1411F8', '_lbl_8C123C98'], ['_sys', '_lbl_8C123C9C']]);
+// MERGE_LIST([["h'0001B17C", '_lbl_8C123CA0'], ["h'01B000A6", 166], ["h'010001B0", 432], ['_AdvWork', '_lbl_8C123C94'], ['_bhCopyMainmem2Texmem', '_lbl_8C123CB4'], ['_rom', '_lbl_8C123C98'], ['_sys', '_lbl_8C123C9C']]);
 INLINE_ASM(_AdvPushPaletteData, 0x26, "asm/nonmatching/./split4/_AdvPushPaletteData.src");
 
 // MERGE_LIST([['_njMemCopy4', '_lbl_8C123CC0'], ['_njGetPaletteMode', '_lbl_8C123CC4'], ["h'00000400", 1024], ['_AdvWork', '_lbl_8C123C94'], ['_palbuf', '_lbl_8C123CB8'], ['_lbl_8C32F200', '_lbl_8C123CBC']]);
@@ -2162,7 +2133,7 @@ INLINE_ASM(_func_8C1301DC, 0x284, "asm/nonmatching/./split4/_func_8C1301DC.src")
 // MERGE_LIST([["h'020002D8", 728], ["h'00FF0200", 512], ["h'FF0000FF", 255], ["h'02DCFF00", 65280], ["h'096002DC", 732], ["h'035C0960", 2400], ["h'0086035C", 860], ['_bhSetMemPvpTexture', '_lbl_8C1304CC'], ['_memset', '_lbl_8C1304D0'], ["h'0001B1A4", '_lbl_8C1304D4'], ['_npCopyMemory', '_lbl_8C1304D8'], ["h'0002ABD8", '_lbl_8C1304DC'], ['_plp', '_lbl_8C1304E0'], ['_lbl_8C12A23A', '_lbl_8C1304E4']]);
 INLINE_ASM(_func_8C130460, 0x170, "asm/nonmatching/./split4/_func_8C130460.src");
 
-// MERGE_LIST([["h'011401A0", 416], ["h'01AC0114", 276], ["h'01B001AC", 428], ["h'008601B0", 432], ["h'11F80086", 134], ['_lbl_8C1411F8', '_lbl_8C13063C'], ["h'0001B17C", '_lbl_8C130640'], ['_lbl_8C12A08C', '_lbl_8C130644'], ['_npGetWHDSize', '_lbl_8C130648'], ["h'41200000", '_lbl_8C13064C'], ['_lbl_8C140ACC', '_lbl_8C130650'], ["h'0002ABDC", '_lbl_8C130654'], ['_sprintf', '_lbl_8C130658'], ['_lbl_8C1290CE', '_lbl_8C13065C'], ['_lbl_8C013620', '_lbl_8C130660']]);
+// MERGE_LIST([["h'011401A0", 416], ["h'01AC0114", 276], ["h'01B001AC", 428], ["h'008601B0", 432], ["h'11F80086", 134], ['_rom', '_lbl_8C13063C'], ["h'0001B17C", '_lbl_8C130640'], ['_lbl_8C12A08C', '_lbl_8C130644'], ['_npGetWHDSize', '_lbl_8C130648'], ["h'41200000", '_lbl_8C13064C'], ['_lbl_8C140ACC', '_lbl_8C130650'], ["h'0002ABDC", '_lbl_8C130654'], ['_sprintf', '_lbl_8C130658'], ['_lbl_8C1290CE', '_lbl_8C13065C'], ['_lbl_8C013620', '_lbl_8C130660']]);
 INLINE_ASM(_func_8C1305D0, 0x378, "asm/nonmatching/./split4/_func_8C1305D0.src");
 
 INLINE_ASM(_func_8C130948, 0xb2, "asm/nonmatching/./split4/_func_8C130948.src");

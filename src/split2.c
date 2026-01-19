@@ -57,10 +57,10 @@ INLINE_ASM(_func_8C01FB98, 0x6d0, "asm/nonmatching/./split2/_func_8C01FB98.src")
 
 INLINE_ASM(_func_8C020268, 0x48c, "asm/nonmatching/./split2/_func_8C020268.src");
 
-// MERGE_LIST([["h'0000C000", '_lbl_8C020780'], ["h'01200118", 280], ["h'02E80120", 288], ["h'036802E8", 744], ["h'01000368", 872], ["h'20000100", 256], ['_lbl_8C0296A0', '_lbl_8C020774'], ['_lbl_8C1411F8', '_lbl_8C020778'], ['_lbl_8C136B22', '_lbl_8C02077C']]);
+// MERGE_LIST([["h'0000C000", '_lbl_8C020780'], ["h'01200118", 280], ["h'02E80120", 288], ["h'036802E8", 744], ["h'01000368", 872], ["h'20000100", 256], ['_lbl_8C0296A0', '_lbl_8C020774'], ['_rom', '_lbl_8C020778'], ['_lbl_8C136B22', '_lbl_8C02077C']]);
 INLINE_ASM(_func_8C0206F4, 0x6a8, "asm/nonmatching/./split2/_func_8C0206F4.src");
 
-// MERGE_LIST([["h'02E80120", 288], ["h'036802E8", 744], ["h'01000368", 872], ["h'00000100", 256], ['_lbl_8C1411F8', '_lbl_8C020E18'], ['_lbl_8C136B22', '_lbl_8C020E1C'], ["h'0000C000", '_lbl_8C020E20']]);
+// MERGE_LIST([["h'02E80120", 288], ["h'036802E8", 744], ["h'01000368", 872], ["h'00000100", 256], ['_rom', '_lbl_8C020E18'], ['_lbl_8C136B22', '_lbl_8C020E1C'], ["h'0000C000", '_lbl_8C020E20']]);
 INLINE_ASM(_func_8C020D9C, 0x3e4, "asm/nonmatching/./split2/_func_8C020D9C.src");
 
 // MERGE_LIST([["h'80000368", 872], ["h'035C8000", 32768], ["h'0384035C", 860], ["h'03800384", 900], ["h'00880380", 896], ["h'00000088", 136], ["h'EFFFFFFF", '_lbl_8C0211B0'], ["h'FFFEFF7F", '_lbl_8C0211B4'], ['_lbl_8C136AC4', '_lbl_8C0211B8']]);
@@ -162,10 +162,10 @@ INLINE_ASM(_bhCalcLinkModel, 0x1f0, "asm/nonmatching/./split2/_bhCalcLinkModel.s
 
 INLINE_ASM(_func_8C0296A0, 0x54, "asm/nonmatching/./split2/_func_8C0296A0.src");
 
-// MERGE_LIST([["h'11F80120", 288], ['_lbl_8C1411F8', '_lbl_8C0297A4']]);
+// MERGE_LIST([["h'11F80120", 288], ['_rom', '_lbl_8C0297A4']]);
 INLINE_ASM(_func_8C0296F4, 0x38, "asm/nonmatching/./split2/_func_8C0296F4.src");
 
-// MERGE_LIST([["h'11F80120", 288], ['_lbl_8C1411F8', '_lbl_8C0297A4']]);
+// MERGE_LIST([["h'11F80120", 288], ['_rom', '_lbl_8C0297A4']]);
 INLINE_ASM(_bhAddSpeed, 0x48, "asm/nonmatching/./split2/_bhAddSpeed.src");
 
 // MERGE_LIST([['_njSin', '_lbl_8C0297A8'], ['_njCos', '_lbl_8C0297AC']]);
@@ -188,7 +188,7 @@ INLINE_ASM(_func_8C02A488, 0xfe, "asm/nonmatching/./split2/_func_8C02A488.src");
 // MERGE_LIST([['_njUnitVector', '_lbl_8C02A5A0'], ['_lbl_8C132ED8', '_lbl_8C02A5A4'], ["h'47800000", '_lbl_8C02A5A8'], ["h'00008000", '_lbl_8C02A588'], ['_njUnitMatrix', '_lbl_8C02A58C'], ["h'40C90FD8", '_lbl_8C02A5AC'], ['_njRotateY', '_lbl_8C02A590'], ['_njCalcVector', '_lbl_8C02A594'], ['_njInnerProduct', '_lbl_8C02A598'], ['_plp', '_lbl_8C02A59C']]);
 INLINE_ASM(_func_8C02A586, 0xdc, "asm/nonmatching/./split2/_func_8C02A586.src");
 
-// MERGE_LIST([["h'015CFEA0", 65184], ["h'0158015C", 348], ["h'01540158", 344], ["h'00D40154", 340], ["h'00D800D4", 212], ["h'00DC00D8", 216], ["h'00E000DC", 220], ["h'00E400E0", 224], ["h'00E800E4", 228], ["h'00EC00E8", 232], ["h'015000EC", 236], ["h'00980150", 336], ["h'D70A0098", 152], ["h'3C23D70A", '_lbl_8C02A6A0'], ['_njScalor', '_lbl_8C02A6A4'], ['_lbl_8C1411F8', '_lbl_8C02A6A8'], ['_sys', '_lbl_8C02A6AC'], ["h'00028A90", '_lbl_8C02A6B0'], ['_lbl_8C02D1A6', '_lbl_8C02A6B4']]);
+// MERGE_LIST([["h'015CFEA0", 65184], ["h'0158015C", 348], ["h'01540158", 344], ["h'00D40154", 340], ["h'00D800D4", 212], ["h'00DC00D8", 216], ["h'00E000DC", 220], ["h'00E400E0", 224], ["h'00E800E4", 228], ["h'00EC00E8", 232], ["h'015000EC", 236], ["h'00980150", 336], ["h'D70A0098", 152], ["h'3C23D70A", '_lbl_8C02A6A0'], ['_njScalor', '_lbl_8C02A6A4'], ['_rom', '_lbl_8C02A6A8'], ['_sys', '_lbl_8C02A6AC'], ["h'00028A90", '_lbl_8C02A6B0'], ['_lbl_8C02D1A6', '_lbl_8C02A6B4']]);
 INLINE_ASM(_func_8C02A662, 0x11f4, "asm/nonmatching/./split2/_func_8C02A662.src");
 
 // MERGE_LIST([["h'015C0090", 144], ["h'0088015C", 348], ["h'008C0094", 148], ["h'00940088", 136], ["h'0098008C", 140], ["h'009C0098", 152], ["h'0150009C", 156], ["h'00E00150", 336], ["h'040000E0", 224], ['_njScalor', '_lbl_8C02B8B0'], ['_lbl_8C02D1A0', '_lbl_8C02B8B4'], ['_sys', '_lbl_8C02B8B8'], ["h'00028A80", '_lbl_8C02B8BC'], ['__quick_odd_mvn', '_lbl_8C02B8C0'], ["h'00028A8C", '_lbl_8C02B8C4']]);
@@ -225,10 +225,10 @@ INLINE_ASM(_func_8C02F90E, 0x122, "asm/nonmatching/./split2/_func_8C02F90E.src")
 
 INLINE_ASM(_bhInitEvent, 0xa2, "asm/nonmatching/./split2/_bhInitEvent.src");
 
-// MERGE_LIST([['_lbl_8C323EFC', '_lbl_8C02FB80'], ['_lbl_8C323F00', '_lbl_8C02FB84'], ['_lbl_8C323F2C', '_lbl_8C02FB88'], ['_lbl_8C3257AC', '_lbl_8C02FB8C'], ['_lbl_8C323F94', '_lbl_8C02FB90'], ['_sys', '_lbl_8C02FB94'], ['_lbl_8C327CC0', '_lbl_8C02FB98'], ['_bhScenarioCheck', '_lbl_8C02FB9C'], ['_lbl_8C03EE0C', '_lbl_8C02FBA0'], ["h'13400134", 308], ["h'008C1340", 4928], ["h'0084008C", 140], ["h'02700084", 132], ["h'44680270", 624], ['_lbl_8C324468', '_lbl_8C02FB6C'], ['_lbl_8C10744E', '_lbl_8C02FB70'], ['_bhControlEnemy', '_lbl_8C02FB74'], ['_lbl_8C1411F8', '_lbl_8C02FB78'], ['_lbl_8C323EF8', '_lbl_8C02FB7C']]);
+// MERGE_LIST([['_lbl_8C323EFC', '_lbl_8C02FB80'], ['_lbl_8C323F00', '_lbl_8C02FB84'], ['_lbl_8C323F2C', '_lbl_8C02FB88'], ['_lbl_8C3257AC', '_lbl_8C02FB8C'], ['_lbl_8C323F94', '_lbl_8C02FB90'], ['_sys', '_lbl_8C02FB94'], ['_lbl_8C327CC0', '_lbl_8C02FB98'], ['_bhScenarioCheck', '_lbl_8C02FB9C'], ['_lbl_8C03EE0C', '_lbl_8C02FBA0'], ["h'13400134", 308], ["h'008C1340", 4928], ["h'0084008C", 140], ["h'02700084", 132], ["h'44680270", 624], ['_lbl_8C324468', '_lbl_8C02FB6C'], ['_lbl_8C10744E', '_lbl_8C02FB70'], ['_bhControlEnemy', '_lbl_8C02FB74'], ['_rom', '_lbl_8C02FB78'], ['_lbl_8C323EF8', '_lbl_8C02FB7C']]);
 INLINE_ASM(_func_8C02FAD2, 0x80, "asm/nonmatching/./split2/_func_8C02FAD2.src");
 
-// MERGE_LIST([['_lbl_8C323EFC', '_lbl_8C02FB80'], ['_lbl_8C03EE0C', '_lbl_8C02FBA0'], ["h'13400134", 308], ["h'008C1340", 4928], ['_lbl_8C323F00', '_lbl_8C02FB84'], ["h'0084008C", 140], ['_lbl_8C323F2C', '_lbl_8C02FB88'], ['_bhScenarioCheck', '_lbl_8C02FB9C'], ['_lbl_8C324468', '_lbl_8C02FB6C'], ['_lbl_8C3257AC', '_lbl_8C02FB8C'], ['_lbl_8C10744E', '_lbl_8C02FB70'], ['_sys', '_lbl_8C02FB94'], ['_lbl_8C1411F8', '_lbl_8C02FB78'], ['_lbl_8C323EF8', '_lbl_8C02FB7C']]);
+// MERGE_LIST([['_lbl_8C323EFC', '_lbl_8C02FB80'], ['_lbl_8C03EE0C', '_lbl_8C02FBA0'], ["h'13400134", 308], ["h'008C1340", 4928], ['_lbl_8C323F00', '_lbl_8C02FB84'], ["h'0084008C", 140], ['_lbl_8C323F2C', '_lbl_8C02FB88'], ['_bhScenarioCheck', '_lbl_8C02FB9C'], ['_lbl_8C324468', '_lbl_8C02FB6C'], ['_lbl_8C3257AC', '_lbl_8C02FB8C'], ['_lbl_8C10744E', '_lbl_8C02FB70'], ['_sys', '_lbl_8C02FB94'], ['_rom', '_lbl_8C02FB78'], ['_lbl_8C323EF8', '_lbl_8C02FB7C']]);
 INLINE_ASM(_bhControlEvent, 0x52, "asm/nonmatching/./split2/_bhControlEvent.src");
 
 INLINE_ASM(_bhEnd, 0xa, "asm/nonmatching/./split2/_bhEnd.src");
@@ -270,7 +270,7 @@ INLINE_ASM(_func_8C031C1A, 0x13a, "asm/nonmatching/./split2/_func_8C031C1A.src")
 
 INLINE_ASM(_bhEneSetCk, 0x74, "asm/nonmatching/./split2/_bhEneSetCk.src");
 
-// MERGE_LIST([["h'057801FF", 511], ["h'00880578", 1400], ["h'01100088", 136], ['_bhScePtr', '_lbl_8C031E8C'], ['_sys', '_lbl_8C031E90'], ['_lbl_8C1411F8', '_lbl_8C031E94'], ['_lbl_8C2419DC', '_lbl_8C031E98'], ["h'01000000", '_lbl_8C031E9C'], ["h'01FF0190", 400]]);
+// MERGE_LIST([["h'057801FF", 511], ["h'00880578", 1400], ["h'01100088", 136], ['_bhScePtr', '_lbl_8C031E8C'], ['_sys', '_lbl_8C031E90'], ['_rom', '_lbl_8C031E94'], ['_lbl_8C2419DC', '_lbl_8C031E98'], ["h'01000000", '_lbl_8C031E9C'], ["h'01FF0190", 400]]);
 INLINE_ASM(_bhItmSetCk, 0xdc, "asm/nonmatching/./split2/_bhItmSetCk.src");
 
 INLINE_ASM(_bhInitModelSet, 0x138, "asm/nonmatching/./split2/_bhInitModelSet.src");
@@ -278,14 +278,14 @@ INLINE_ASM(_bhInitModelSet, 0x138, "asm/nonmatching/./split2/_bhInitModelSet.src
 // MERGE_LIST([["h'00E00088", 136]]);
 INLINE_ASM(_bhEtcAtariSet2, 0x7e, "asm/nonmatching/./split2/_bhEtcAtariSet2.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C0320C8'], ['_bhScePtr', '_lbl_8C0320C4']]);
+// MERGE_LIST([['_rom', '_lbl_8C0320C8'], ['_bhScePtr', '_lbl_8C0320C4']]);
 INLINE_ASM(_bhLightSet, 0x72, "asm/nonmatching/./split2/_bhLightSet.src");
 
 INLINE_ASM(_bhWeaponSeCall, 0x25c, "asm/nonmatching/./split2/_bhWeaponSeCall.src");
 
 INLINE_ASM(_bhYakkyouSet, 0xe8, "asm/nonmatching/./split2/_bhYakkyouSet.src");
 
-// MERGE_LIST([['_plp', '_lbl_8C0324A0'], ['_lbl_8C1411F8', '_lbl_8C0324A4'], ['_lbl_8C2419DC', '_lbl_8C0324A8'], ["h'057803E4", 996], ["h'3EF40578", 1400], ['_bhScePtr', '_lbl_8C032490'], ["h'47800000", '_lbl_8C032494'], ["h'43B40000", '_lbl_8C032498'], ['_lbl_8C02F4E4', '_lbl_8C03249C']]);
+// MERGE_LIST([['_plp', '_lbl_8C0324A0'], ['_rom', '_lbl_8C0324A4'], ['_lbl_8C2419DC', '_lbl_8C0324A8'], ["h'057803E4", 996], ["h'3EF40578", 1400], ['_bhScePtr', '_lbl_8C032490'], ["h'47800000", '_lbl_8C032494'], ["h'43B40000", '_lbl_8C032498'], ['_lbl_8C02F4E4', '_lbl_8C03249C']]);
 INLINE_ASM(_bhFadeSet, 0xa0, "asm/nonmatching/./split2/_bhFadeSet.src");
 
 INLINE_ASM(_bhRoomCaseNo, 0x1c, "asm/nonmatching/./split2/_bhRoomCaseNo.src");
@@ -293,18 +293,18 @@ INLINE_ASM(_bhRoomCaseNo, 0x1c, "asm/nonmatching/./split2/_bhRoomCaseNo.src");
 // MERGE_LIST([['_bhScePtr', '_lbl_8C0325B8'], ['_sys', '_lbl_8C0325BC'], ["h'036C0087", 135]]);
 INLINE_ASM(_bhFrameCheck, 0xa4, "asm/nonmatching/./split2/_bhFrameCheck.src");
 
-// MERGE_LIST([["h'00008000", '_lbl_8C0325C0'], ['_plp', '_lbl_8C0325C4'], ['_lbl_8C1411F8', '_lbl_8C0325C8'], ['_lbl_8C2419DC', '_lbl_8C0325CC'], ["h'0578036C", 876], ["h'0001B1C8", '_lbl_8C0325D0'], ["h'04DC0578", 1400], ["h'02A804DC", 1244], ['_bhScePtr', '_lbl_8C0325B8'], ['_sys', '_lbl_8C0325BC']]);
+// MERGE_LIST([["h'00008000", '_lbl_8C0325C0'], ['_plp', '_lbl_8C0325C4'], ['_rom', '_lbl_8C0325C8'], ['_lbl_8C2419DC', '_lbl_8C0325CC'], ["h'0578036C", 876], ["h'0001B1C8", '_lbl_8C0325D0'], ["h'04DC0578", 1400], ["h'02A804DC", 1244], ['_bhScePtr', '_lbl_8C0325B8'], ['_sys', '_lbl_8C0325BC']]);
 INLINE_ASM(_bhCamInfoSet, 0x64, "asm/nonmatching/./split2/_bhCamInfoSet.src");
 
 INLINE_ASM(_bhMaskSet, 0x50, "asm/nonmatching/./split2/_bhMaskSet.src");
 
-// MERGE_LIST([['_lbl_8C108716', '_lbl_8C032740'], ["h'02E80578", 1400], ['_bhScePtr', '_lbl_8C032734'], ['_lbl_8C1411F8', '_lbl_8C032738'], ['_lbl_8C2419DC', '_lbl_8C03273C']]);
+// MERGE_LIST([['_lbl_8C108716', '_lbl_8C032740'], ["h'02E80578", 1400], ['_bhScePtr', '_lbl_8C032734'], ['_rom', '_lbl_8C032738'], ['_lbl_8C2419DC', '_lbl_8C03273C']]);
 INLINE_ASM(_bhLipSet, 0x58, "asm/nonmatching/./split2/_bhLipSet.src");
 
-// MERGE_LIST([['_lbl_8C1087DC', '_lbl_8C032744'], ["h'02E80578", 1400], ["h'3EF402E8", 744], ['_bhScePtr', '_lbl_8C032734'], ['_lbl_8C1411F8', '_lbl_8C032738'], ['_lbl_8C2419DC', '_lbl_8C03273C']]);
+// MERGE_LIST([['_lbl_8C1087DC', '_lbl_8C032744'], ["h'02E80578", 1400], ["h'3EF402E8", 744], ['_bhScePtr', '_lbl_8C032734'], ['_rom', '_lbl_8C032738'], ['_lbl_8C2419DC', '_lbl_8C03273C']]);
 INLINE_ASM(_bhMaskStart, 0x62, "asm/nonmatching/./split2/_bhMaskStart.src");
 
-// MERGE_LIST([["h'02E80578", 1400], ["h'3EF402E8", 744], ['_bhScePtr', '_lbl_8C032734'], ['_lbl_8C1411F8', '_lbl_8C032738'], ['_lbl_8C2419DC', '_lbl_8C03273C']]);
+// MERGE_LIST([["h'02E80578", 1400], ["h'3EF402E8", 744], ['_bhScePtr', '_lbl_8C032734'], ['_rom', '_lbl_8C032738'], ['_lbl_8C2419DC', '_lbl_8C03273C']]);
 INLINE_ASM(_bhLipStart, 0x7a, "asm/nonmatching/./split2/_bhLipStart.src");
 
 // MERGE_LIST([["h'02EC02E8", 744]]);
@@ -321,7 +321,7 @@ INLINE_ASM(_bhSoundFadeOut, 0x1e, "asm/nonmatching/./split2/_bhSoundFadeOut.src"
 
 INLINE_ASM(_bhDefModelSet, 0xb2, "asm/nonmatching/./split2/_bhDefModelSet.src");
 
-// MERGE_LIST([['_plp', '_lbl_8C0329E0'], ['_lbl_8C1411F8', '_lbl_8C0329E4'], ['_lbl_8C2419DC', '_lbl_8C0329E8'], ['_sys', '_lbl_8C0329EC'], ["h'0001B1C8", '_lbl_8C0329F0'], ["h'04DC0578", 1400], ["h'02D804DC", 1244], ["h'04B402D8", 728], ['_bhScePtr', '_lbl_8C0329DC']]);
+// MERGE_LIST([['_plp', '_lbl_8C0329E0'], ['_rom', '_lbl_8C0329E4'], ['_lbl_8C2419DC', '_lbl_8C0329E8'], ['_sys', '_lbl_8C0329EC'], ["h'0001B1C8", '_lbl_8C0329F0'], ["h'04DC0578", 1400], ["h'02D804DC", 1244], ["h'04B402D8", 728], ['_bhScePtr', '_lbl_8C0329DC']]);
 INLINE_ASM(_bhItmAspdSet, 0x34, "asm/nonmatching/./split2/_bhItmAspdSet.src");
 
 // MERGE_LIST([['_sys', '_lbl_8C0329EC'], ["h'0001B1CC", '_lbl_8C0329F4'], ["h'02D804DC", 1244], ["h'008804B4", 1204], ['_bhScePtr', '_lbl_8C0329DC']]);
@@ -330,7 +330,7 @@ INLINE_ASM(_bhEffDispSet, 0x88, "asm/nonmatching/./split2/_bhEffDispSet.src");
 // MERGE_LIST([["h'03BC0088", 136], ["h'FEFFFFFF", '_lbl_8C032B38']]);
 INLINE_ASM(_bhEffAmbSet, 0xa2, "asm/nonmatching/./split2/_bhEffAmbSet.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C032B40'], ["h'3DCCCCCD", '_lbl_8C032B44'], ["h'4F800000", '_lbl_8C032B48'], ["h'03CC03BC", 956], ["h'03DC03CC", 972], ["h'057803DC", 988], ['_bhScePtr', '_lbl_8C032B3C']]);
+// MERGE_LIST([['_rom', '_lbl_8C032B40'], ["h'3DCCCCCD", '_lbl_8C032B44'], ["h'4F800000", '_lbl_8C032B48'], ["h'03CC03BC", 956], ["h'03DC03CC", 972], ["h'057803DC", 988], ['_bhScePtr', '_lbl_8C032B3C']]);
 INLINE_ASM(_bhObjLinkSetObjEne, 0x14c, "asm/nonmatching/./split2/_bhObjLinkSetObjEne.src");
 
 // MERGE_LIST([["h'42C80000", '_lbl_8C032C80'], ["h'04DCFF7F", 65407]]);
@@ -346,7 +346,7 @@ INLINE_ASM(_bhDelObjSe, 0x1e, "asm/nonmatching/./split2/_bhDelObjSe.src");
 // MERGE_LIST([['_lbl_8C1063F0', '_lbl_8C033150'], ['_bhScePtr', '_lbl_8C03314C']]);
 INLINE_ASM(_bhLightTypeSet, 0x3c, "asm/nonmatching/./split2/_bhLightTypeSet.src");
 
-// MERGE_LIST([["h'000000E0", 224], ['_bhScePtr', '_lbl_8C03314C'], ['_lbl_8C1411F8', '_lbl_8C033154']]);
+// MERGE_LIST([["h'000000E0", 224], ['_bhScePtr', '_lbl_8C03314C'], ['_rom', '_lbl_8C033154']]);
 INLINE_ASM(_bhFogColorSet, 0xb6, "asm/nonmatching/./split2/_bhFogColorSet.src");
 
 INLINE_ASM(_bhEffectSandSet, 0x1cc, "asm/nonmatching/./split2/_bhEffectSandSet.src");
@@ -363,7 +363,7 @@ INLINE_ASM(_bhEffBloodPoolSet2, 0x174, "asm/nonmatching/./split2/_bhEffBloodPool
 // MERGE_LIST([["h'42C80000", '_lbl_8C033920'], ['_lbl_8C142398', '_lbl_8C033940'], ["h'47800000", '_lbl_8C033924'], ['_lbl_8C0D5124', '_lbl_8C033944'], ["h'43B40000", '_lbl_8C033928'], ["h'00008000", '_lbl_8C03392C'], ["h'0000FFFF", '_lbl_8C033930'], ['_njSin', '_lbl_8C033934'], ['_lbl_8C1423D8', '_lbl_8C03393C'], ['_njCos', '_lbl_8C033938'], ['_bhScePtr', '_lbl_8C03391C']]);
 INLINE_ASM(_bhCyoutenHenkeiSet, 0xd0, "asm/nonmatching/./split2/_bhCyoutenHenkeiSet.src");
 
-// MERGE_LIST([["h'008400D8", 216], ["h'02D80578", 1400], ['_lbl_8C1411F8', '_lbl_8C033AB0'], ['_lbl_8C2419DC', '_lbl_8C033AB4'], ["h'00D802D8", 728]]);
+// MERGE_LIST([["h'008400D8", 216], ["h'02D80578", 1400], ['_rom', '_lbl_8C033AB0'], ['_lbl_8C2419DC', '_lbl_8C033AB4'], ["h'00D802D8", 728]]);
 INLINE_ASM(_bhCyoutenHenkeiStart, 0x50, "asm/nonmatching/./split2/_bhCyoutenHenkeiStart.src");
 
 // MERGE_LIST([["h'447A0000", '_lbl_8C033AC0'], ["h'00980084", 132], ["h'00940098", 152], ["h'034C0094", 148], ["h'04DC034C", 844], ['_bhScePtr', '_lbl_8C033AB8'], ['_lbl_8C323F94', '_lbl_8C033ABC']]);
@@ -437,7 +437,7 @@ INLINE_ASM(_bhLightParameterSet, 0xda, "asm/nonmatching/./split2/_bhLightParamet
 
 INLINE_ASM(_bhEneSeOn, 0xa2, "asm/nonmatching/./split2/_bhEneSeOn.src");
 
-// MERGE_LIST([["h'02D80578", 1400], ["h'3EF402D8", 728], ['_bhScePtr', '_lbl_8C034C08'], ['_lbl_8C1411F8', '_lbl_8C034C0C'], ['_lbl_8C2419DC', '_lbl_8C034C10'], ['_lbl_8C10611C', '_lbl_8C034C14']]);
+// MERGE_LIST([["h'02D80578", 1400], ["h'3EF402D8", 728], ['_bhScePtr', '_lbl_8C034C08'], ['_rom', '_lbl_8C034C0C'], ['_lbl_8C2419DC', '_lbl_8C034C10'], ['_lbl_8C10611C', '_lbl_8C034C14']]);
 INLINE_ASM(_bhEneSeOff, 0x24, "asm/nonmatching/./split2/_bhEneSeOff.src");
 
 // MERGE_LIST([['_bhScePtr', '_lbl_8C034C08'], ['_lbl_8C10618A', '_lbl_8C034C18']]);
@@ -445,7 +445,7 @@ INLINE_ASM(_bhWalAtariSet2, 0x96, "asm/nonmatching/./split2/_bhWalAtariSet2.src"
 
 INLINE_ASM(_bhFlrAtariSet2, 0x7e, "asm/nonmatching/./split2/_bhFlrAtariSet2.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C034DC0'], ['_bhScePtr', '_lbl_8C034DBC']]);
+// MERGE_LIST([['_rom', '_lbl_8C034DC0'], ['_bhScePtr', '_lbl_8C034DBC']]);
 INLINE_ASM(_bhMotionPosSetEnePly, 0x13e, "asm/nonmatching/./split2/_bhMotionPosSetEnePly.src");
 
 INLINE_ASM(_bhKageSwSet, 0xfc, "asm/nonmatching/./split2/_bhKageSwSet.src");
@@ -455,10 +455,10 @@ INLINE_ASM(_bhSoundPanSet, 0x56, "asm/nonmatching/./split2/_bhSoundPanSet.src");
 // MERGE_LIST([['_lbl_8C1055DA', '_lbl_8C034FF8'], ['_bhScePtr', '_lbl_8C034FF4']]);
 INLINE_ASM(_bhInitPonySet, 0x68, "asm/nonmatching/./split2/_bhInitPonySet.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C035000'], ['_lbl_8C2419DC', '_lbl_8C035004'], ["h'05780080", 128], ["h'00000578", 1400], ['_bhScePtr', '_lbl_8C034FF4'], ['_plp', '_lbl_8C034FFC']]);
+// MERGE_LIST([['_rom', '_lbl_8C035000'], ['_lbl_8C2419DC', '_lbl_8C035004'], ["h'05780080", 128], ["h'00000578", 1400], ['_bhScePtr', '_lbl_8C034FF4'], ['_plp', '_lbl_8C034FFC']]);
 INLINE_ASM(_bhCyoutenHenkeiSetEX, 0xde, "asm/nonmatching/./split2/_bhCyoutenHenkeiSetEX.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C0350E4'], ['_lbl_8C2419DC', '_lbl_8C0350E8'], ["h'034C0084", 132], ["h'02D80578", 1400], ["h'00D802D8", 728], ["h'034800D8", 216], ["h'00840348", 840], ["h'0098034C", 844]]);
+// MERGE_LIST([['_rom', '_lbl_8C0350E4'], ['_lbl_8C2419DC', '_lbl_8C0350E8'], ["h'034C0084", 132], ["h'02D80578", 1400], ["h'00D802D8", 728], ["h'034800D8", 216], ["h'00840348", 840], ["h'0098034C", 844]]);
 INLINE_ASM(_bhCyoutenHenkeiStartEX, 0x88, "asm/nonmatching/./split2/_bhCyoutenHenkeiStartEX.src");
 
 INLINE_ASM(_bhEasySESet, 0x174, "asm/nonmatching/./split2/_bhEasySESet.src");
@@ -489,7 +489,7 @@ INLINE_ASM(_bhHEffectSet2, 0x20c, "asm/nonmatching/./split2/_bhHEffectSet2.src")
 
 INLINE_ASM(_bhObjDposCk, 0x172, "asm/nonmatching/./split2/_bhObjDposCk.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C036844'], ['_lbl_8C2419DC', '_lbl_8C036848'], ["h'01640578", 1400], ["h'02700164", 356]]);
+// MERGE_LIST([['_rom', '_lbl_8C036844'], ['_lbl_8C2419DC', '_lbl_8C036848'], ["h'01640578", 1400], ["h'02700164", 356]]);
 INLINE_ASM(_bhItemGetGet, 0xda, "asm/nonmatching/./split2/_bhItemGetGet.src");
 
 // MERGE_LIST([["h'08000000", '_lbl_8C0369E0'], ["h'08900270", 624], ["h'05780890", 2192]]);
@@ -497,7 +497,7 @@ INLINE_ASM(_bhEtcAtariEnePosSet, 0x16c, "asm/nonmatching/./split2/_bhEtcAtariEne
 
 INLINE_ASM(_bhEtcAtariEvtPosSet, 0xac, "asm/nonmatching/./split2/_bhEtcAtariEvtPosSet.src");
 
-// MERGE_LIST([['_bhScePtr', '_lbl_8C036B68'], ['_lbl_8C1411F8', '_lbl_8C036B6C'], ['_sys', '_lbl_8C036B70'], ["h'0001B1CC", '_lbl_8C036B74'], ["h'04DC089C", 2204], ["h'040004DC", 1244]]);
+// MERGE_LIST([['_bhScePtr', '_lbl_8C036B68'], ['_rom', '_lbl_8C036B6C'], ['_sys', '_lbl_8C036B70'], ["h'0001B1CC", '_lbl_8C036B74'], ["h'04DC089C", 2204], ["h'040004DC", 1244]]);
 INLINE_ASM(_bhRoomSoundCase, 0x1e, "asm/nonmatching/./split2/_bhRoomSoundCase.src");
 
 // MERGE_LIST([['_bhScePtr', '_lbl_8C036B68'], ['_lbl_8C104DB8', '_lbl_8C036B78']]);
@@ -509,12 +509,12 @@ INLINE_ASM(_bhItemSBoxToIBox, 0x8a, "asm/nonmatching/./split2/_bhItemSBoxToIBox.
 // MERGE_LIST([["h'00D00270", 624], ["h'3EF400D0", 208]]);
 INLINE_ASM(_bhGrdPosSet, 0xc0, "asm/nonmatching/./split2/_bhGrdPosSet.src");
 
-// MERGE_LIST([['_bhScePtr', '_lbl_8C036CC8'], ['_lbl_8C1411F8', '_lbl_8C036CCC'], ["h'42C80000", '_lbl_8C036CD0']]);
+// MERGE_LIST([['_bhScePtr', '_lbl_8C036CC8'], ['_rom', '_lbl_8C036CCC'], ["h'42C80000", '_lbl_8C036CD0']]);
 INLINE_ASM(_bhGrdPosMoveCSet, 0x166, "asm/nonmatching/./split2/_bhGrdPosMoveCSet.src");
 
 INLINE_ASM(_bhGrdPosMoveStart, 0xf6, "asm/nonmatching/./split2/_bhGrdPosMoveStart.src");
 
-// MERGE_LIST([["h'01100124", 292], ["h'01280110", 272], ["h'01140128", 296], ["h'00980114", 276], ["h'01340098", 152], ['_bhScePtr', '_lbl_8C036F2C'], ['_lbl_8C1411F8', '_lbl_8C036F30'], ['_lbl_8C323F94', '_lbl_8C036F34'], ['_lbl_8C197620', '_lbl_8C036F38'], ["h'01240120", 288]]);
+// MERGE_LIST([["h'01100124", 292], ["h'01280110", 272], ["h'01140128", 296], ["h'00980114", 276], ["h'01340098", 152], ['_bhScePtr', '_lbl_8C036F2C'], ['_rom', '_lbl_8C036F30'], ['_lbl_8C323F94', '_lbl_8C036F34'], ['_lbl_8C197620', '_lbl_8C036F38'], ["h'01240120", 288]]);
 INLINE_ASM(_bhEvtKill, 0x22, "asm/nonmatching/./split2/_bhEvtKill.src");
 
 // MERGE_LIST([["h'3EF40134", 308], ['_bhScePtr', '_lbl_8C036F2C'], ['_lbl_8C32446C', '_lbl_8C036F3C']]);
@@ -527,7 +527,7 @@ INLINE_ASM(_bhPlItemLostEx, 0x13a, "asm/nonmatching/./split2/_bhPlItemLostEx.src
 
 INLINE_ASM(_bhCyodanSetEx, 0x2f2, "asm/nonmatching/./split2/_bhCyodanSetEx.src");
 
-// MERGE_LIST([["h'0001B1C8", '_lbl_8C0374A0'], ['_lbl_8C0D626C', '_lbl_8C0374A4'], ["h'02D80578", 1400], ["h'04DC02D8", 728], ["h'008404DC", 1244], ['_sys', '_lbl_8C03749C'], ['_lbl_8C1411F8', '_lbl_8C037494'], ['_lbl_8C2419DC', '_lbl_8C037498']]);
+// MERGE_LIST([["h'0001B1C8", '_lbl_8C0374A0'], ['_lbl_8C0D626C', '_lbl_8C0374A4'], ["h'02D80578", 1400], ["h'04DC02D8", 728], ["h'008404DC", 1244], ['_sys', '_lbl_8C03749C'], ['_rom', '_lbl_8C037494'], ['_lbl_8C2419DC', '_lbl_8C037498']]);
 INLINE_ASM(_bhArmsItemSet, 0xd6, "asm/nonmatching/./split2/_bhArmsItemSet.src");
 
 // MERGE_LIST([["h'00840270", 624], ["h'3EF40084", 132]]);
@@ -539,7 +539,7 @@ INLINE_ASM(_bhEffectSandSetMatsumoto, 0x32, "asm/nonmatching/./split2/_bhEffectS
 // MERGE_LIST([['_bhScePtr', '_lbl_8C0376F8'], ['_lbl_8C057004', '_lbl_8C0376FC']]);
 INLINE_ASM(_bhVoiceWait, 0x150, "asm/nonmatching/./split2/_bhVoiceWait.src");
 
-// MERGE_LIST([['_sys', '_lbl_8C037840'], ["h'0001B1C8", '_lbl_8C037844'], ['_lbl_8C106684', '_lbl_8C037848'], ["h'04DC0578", 1400], ["h'02D804DC", 1244], ["h'BFFF02D8", 728], ['_lbl_8C1411F8', '_lbl_8C037838'], ['_lbl_8C2419DC', '_lbl_8C03783C']]);
+// MERGE_LIST([['_sys', '_lbl_8C037840'], ["h'0001B1C8", '_lbl_8C037844'], ['_lbl_8C106684', '_lbl_8C037848'], ["h'04DC0578", 1400], ["h'02D804DC", 1244], ["h'BFFF02D8", 728], ['_rom', '_lbl_8C037838'], ['_lbl_8C2419DC', '_lbl_8C03783C']]);
 INLINE_ASM(_bhVoiceStart, 0x14, "asm/nonmatching/./split2/_bhVoiceStart.src");
 
 // MERGE_LIST([['_lbl_8C1066BC', '_lbl_8C037850'], ['_bhScePtr', '_lbl_8C03784C']]);
@@ -561,7 +561,7 @@ INLINE_ASM(_bhEvtTimerSet, 0x3c, "asm/nonmatching/./split2/_bhEvtTimerSet.src");
 
 INLINE_ASM(_bhEneLookFlgSet, 0x54, "asm/nonmatching/./split2/_bhEneLookFlgSet.src");
 
-// MERGE_LIST([["h'EFFF0578", 1400], ['_bhScePtr', '_lbl_8C037B0C'], ['_lbl_8C1411F8', '_lbl_8C037B10'], ['_lbl_8C2419DC', '_lbl_8C037B14'], ["h'FFFF7FFF", '_lbl_8C037B18'], ["h'00008000", '_lbl_8C037B1C']]);
+// MERGE_LIST([["h'EFFF0578", 1400], ['_bhScePtr', '_lbl_8C037B0C'], ['_rom', '_lbl_8C037B10'], ['_lbl_8C2419DC', '_lbl_8C037B14'], ["h'FFFF7FFF", '_lbl_8C037B18'], ["h'00008000", '_lbl_8C037B1C']]);
 INLINE_ASM(_bhReturnTitleEvt, 0x2e, "asm/nonmatching/./split2/_bhReturnTitleEvt.src");
 
 // MERGE_LIST([['_RequestAllStopSoundEx', '_lbl_8C037B20'], ["h'2E38EFFF", 61439], ['_bhReturnTitle', '_lbl_8C037B24'], ['_sys', '_lbl_8C037B28'], ['_bhScePtr', '_lbl_8C037B0C']]);
@@ -679,12 +679,12 @@ INLINE_ASM(_func_8C03D8C0, 0x1016, "asm/nonmatching/./split2/_func_8C03D8C0.src"
 // MERGE_LIST([["h'03680084", 132]]);
 INLINE_ASM(_bhLoadWork, 0x1b0, "asm/nonmatching/./split2/_bhLoadWork.src");
 
-// MERGE_LIST([["h'00800578", 1400], ["h'03840080", 128], ["h'00FC0384", 900], ["h'008400FC", 252], ["h'01000084", 132], ["h'03740100", 256], ["h'01040374", 884], ["h'04DC0104", 260], ["h'000004DC", 1244], ['_lbl_8C1411F8', '_lbl_8C03EAD0'], ['_lbl_8C2419DC', '_lbl_8C03EAD4'], ["h'0001B1C8", '_lbl_8C03EAD8'], ["h'0001B1CC", '_lbl_8C03EADC'], ["h'0001ED3C", '_lbl_8C03EAE0'], ['_lbl_8C26D5DC', '_lbl_8C03EAE4']]);
+// MERGE_LIST([["h'00800578", 1400], ["h'03840080", 128], ["h'00FC0384", 900], ["h'008400FC", 252], ["h'01000084", 132], ["h'03740100", 256], ["h'01040374", 884], ["h'04DC0104", 260], ["h'000004DC", 1244], ['_rom', '_lbl_8C03EAD0'], ['_lbl_8C2419DC', '_lbl_8C03EAD4'], ["h'0001B1C8", '_lbl_8C03EAD8'], ["h'0001B1CC", '_lbl_8C03EADC'], ["h'0001ED3C", '_lbl_8C03EAE0'], ['_lbl_8C26D5DC', '_lbl_8C03EAE4']]);
 INLINE_ASM(_bhLoadWorkEx, 0x1d2, "asm/nonmatching/./split2/_bhLoadWorkEx.src");
 
 INLINE_ASM(_bhLoadWork2, 0xbc, "asm/nonmatching/./split2/_bhLoadWork2.src");
 
-// MERGE_LIST([["h'04DC0134", 308], ['_lbl_8C324468', '_lbl_8C03EDC0'], ["h'008004DC", 1244], ['_sys', '_lbl_8C03EDC4'], ["h'009C0080", 128], ['_bhScePtr', '_lbl_8C03EDA8'], ["h'0001B1C8", '_lbl_8C03EDC8'], ['_lbl_8C323F94', '_lbl_8C03EDAC'], ['_plp', '_lbl_8C03EDB0'], ["h'00010000", '_lbl_8C03EDB4'], ['_lbl_8C1411F8', '_lbl_8C03EDB8'], ['_lbl_8C2419DC', '_lbl_8C03EDBC'], ["h'05780088", 136], ["h'01340578", 1400]]);
+// MERGE_LIST([["h'04DC0134", 308], ['_lbl_8C324468', '_lbl_8C03EDC0'], ["h'008004DC", 1244], ['_sys', '_lbl_8C03EDC4'], ["h'009C0080", 128], ['_bhScePtr', '_lbl_8C03EDA8'], ["h'0001B1C8", '_lbl_8C03EDC8'], ['_lbl_8C323F94', '_lbl_8C03EDAC'], ['_plp', '_lbl_8C03EDB0'], ["h'00010000", '_lbl_8C03EDB4'], ['_rom', '_lbl_8C03EDB8'], ['_lbl_8C2419DC', '_lbl_8C03EDBC'], ["h'05780088", 136], ["h'01340578", 1400]]);
 INLINE_ASM(_func_8C03ED14, 0xb8, "asm/nonmatching/./split2/_func_8C03ED14.src");
 
 INLINE_ASM(_func_8C03EDCC, 0x40, "asm/nonmatching/./split2/_func_8C03EDCC.src");
@@ -694,7 +694,7 @@ INLINE_ASM(_func_8C03EE0C, 0xc0, "asm/nonmatching/./split2/_func_8C03EE0C.src");
 
 INLINE_ASM(_bhScenarioCheck, 0x50, "asm/nonmatching/./split2/_bhScenarioCheck.src");
 
-// MERGE_LIST([['_lbl_8C323F04', '_lbl_8C03EFA0'], ['_bhScePtr', '_lbl_8C03EF90'], ['_lbl_8C1411F8', '_lbl_8C03EF94'], ['_lbl_8C323F2C', '_lbl_8C03EF98'], ['_bhScenarioJmpT', '_lbl_8C03EF9C']]);
+// MERGE_LIST([['_lbl_8C323F04', '_lbl_8C03EFA0'], ['_bhScePtr', '_lbl_8C03EF90'], ['_rom', '_lbl_8C03EF94'], ['_lbl_8C323F2C', '_lbl_8C03EF98'], ['_bhScenarioJmpT', '_lbl_8C03EF9C']]);
 INLINE_ASM(_func_8C03EF1C, 0xb0, "asm/nonmatching/./split2/_func_8C03EF1C.src");
 
 // MERGE_LIST([["h'009003FF", 1023]]);
@@ -1236,7 +1236,7 @@ INLINE_ASM(_func_8C0545C4, 0x8e, "asm/nonmatching/./split2/_func_8C0545C4.src");
 // MERGE_LIST([["h'40400000", '_lbl_8C0546A0'], ["h'041C02E4", 740], ["h'00008020", '_lbl_8C0546A4'], ["h'0100041C", 1052], ["h'04200100", 256], ['_lbl_8C147094', '_lbl_8C0546A8'], ["h'040C0420", 1056], ["h'0084040C", 1036], ["h'FFFF0084", 132]]);
 INLINE_ASM(_func_8C054652, 0x102, "asm/nonmatching/./split2/_func_8C054652.src");
 
-// MERGE_LIST([["h'02E40084", 132], ['_njCalcPoint', '_lbl_8C0547E8'], ['_lbl_8C1411F8', '_lbl_8C0547EC'], ['_lbl_8C101590', '_lbl_8C0547F0'], ['_lbl_8C04FD9E', '_lbl_8C0547F4'], ["h'008003E4", 996], ["h'02D80080", 128], ["h'012002D8", 728], ["h'13480120", 288], ["h'00841348", 4936]]);
+// MERGE_LIST([["h'02E40084", 132], ['_njCalcPoint', '_lbl_8C0547E8'], ['_rom', '_lbl_8C0547EC'], ['_lbl_8C101590', '_lbl_8C0547F0'], ['_lbl_8C04FD9E', '_lbl_8C0547F4'], ["h'008003E4", 996], ["h'02D80080", 128], ["h'012002D8", 728], ["h'13480120", 288], ["h'00841348", 4936]]);
 INLINE_ASM(_func_8C054754, 0x220, "asm/nonmatching/./split2/_func_8C054754.src");
 
 INLINE_ASM(_func_8C054974, 0x98, "asm/nonmatching/./split2/_func_8C054974.src");
@@ -1379,14 +1379,14 @@ INLINE_ASM(_func_8C05B3D8, 0x7e, "asm/nonmatching/./split2/_func_8C05B3D8.src");
 // MERGE_LIST([["h'03D40368", 872], ["h'036C03D4", 980], ["h'8000036C", 876], ["h'00008000", '_lbl_8C05B490'], ["h'00340000", '_lbl_8C05B494'], ["h'00370000", '_lbl_8C05B498'], ['_lbl_8C0628F8', '_lbl_8C05B49C']]);
 INLINE_ASM(_func_8C05B456, 0x248, "asm/nonmatching/./split2/_func_8C05B456.src");
 
-// MERGE_LIST([["h'011802E8", 744], ["h'03D40118", 280], ["h'02EC03D4", 980], ["h'008002EC", 748], ["h'11F80080", 128], ['_lbl_8C1411F8', '_lbl_8C05B6EC'], ["h'3EA8F5C3", '_lbl_8C05B6F0']]);
+// MERGE_LIST([["h'011802E8", 744], ["h'03D40118", 280], ["h'02EC03D4", 980], ["h'008002EC", 748], ["h'11F80080", 128], ['_rom', '_lbl_8C05B6EC'], ["h'3EA8F5C3", '_lbl_8C05B6F0']]);
 INLINE_ASM(_func_8C05B69E, 0x4, "asm/nonmatching/./split2/_func_8C05B69E.src");
 
 INLINE_ASM(_func_8C05B6A2, 0x4, "asm/nonmatching/./split2/_func_8C05B6A2.src");
 
 INLINE_ASM(_func_8C05B6A6, 0x23a, "asm/nonmatching/./split2/_func_8C05B6A6.src");
 
-// MERGE_LIST([["h'011802E8", 744], ["h'03680118", 280], ["h'03D40368", 872], ["h'11F803D4", 980], ['_lbl_8C1411F8', '_lbl_8C05B928'], ["h'3EA8F5C3", '_lbl_8C05B92C']]);
+// MERGE_LIST([["h'011802E8", 744], ["h'03680118", 280], ["h'03D40368", 872], ["h'11F803D4", 980], ['_rom', '_lbl_8C05B928'], ["h'3EA8F5C3", '_lbl_8C05B92C']]);
 INLINE_ASM(_func_8C05B8E0, 0x2d2, "asm/nonmatching/./split2/_func_8C05B8E0.src");
 
 // MERGE_LIST([["h'03D402E8", 744], ["h'008003D4", 980], ["h'00000080", 128], ["h'3EA8F5C3", '_lbl_8C05BBD4']]);
@@ -1589,7 +1589,7 @@ INLINE_ASM(_func_8C064794, 0x1d2, "asm/nonmatching/./split2/_func_8C064794.src")
 // MERGE_LIST([["h'017802E8", 744], ["h'040C0178", 376], ["h'0800040C", 1036], ["h'00840800", 2048], ["h'FBFF0084", 132], ["h'02D8FBFF", 64511], ["h'035002D8", 728], ["h'03580350", 848], ["h'00880358", 856], ['_lbl_8C14B620', '_lbl_8C064A24'], ["h'40C00000", '_lbl_8C064A28'], ['_lbl_8C14B1D0', '_lbl_8C064A2C'], ['_bhSetShadow', '_lbl_8C064A30'], ["h'FFB2B2B2", '_lbl_8C064A34'], ['_lbl_8C013DE6', '_lbl_8C064A38']]);
 INLINE_ASM(_func_8C064966, 0x80, "asm/nonmatching/./split2/_func_8C064966.src");
 
-// MERGE_LIST([["h'000080A1", '_lbl_8C064A40'], ["h'FF7F035C", 860], ['_lbl_8C1411F8', '_lbl_8C064A44'], ['_lbl_8C040CF2', '_lbl_8C064A48'], ['__quick_evn_mvn', '_lbl_8C064A4C'], ["h'035002D8", 728], ["h'02E40088", 136], ["h'02E002E4", 740], ['_npSetMemoryL', '_lbl_8C064A3C'], ["h'015802E0", 736], ["h'035C0158", 344]]);
+// MERGE_LIST([["h'000080A1", '_lbl_8C064A40'], ["h'FF7F035C", 860], ['_rom', '_lbl_8C064A44'], ['_lbl_8C040CF2', '_lbl_8C064A48'], ['__quick_evn_mvn', '_lbl_8C064A4C'], ["h'035002D8", 728], ["h'02E40088", 136], ["h'02E002E4", 740], ['_npSetMemoryL', '_lbl_8C064A3C'], ["h'015802E0", 736], ["h'035C0158", 344]]);
 INLINE_ASM(_func_8C0649E6, 0x6e, "asm/nonmatching/./split2/_func_8C0649E6.src");
 
 INLINE_ASM(_func_8C064A54, 0x20, "asm/nonmatching/./split2/_func_8C064A54.src");
@@ -1654,7 +1654,7 @@ INLINE_ASM(_func_8C066748, 0x224, "asm/nonmatching/./split2/_func_8C066748.src")
 
 INLINE_ASM(_func_8C06696C, 0x59e, "asm/nonmatching/./split2/_func_8C06696C.src");
 
-// MERGE_LIST([["h'00008000", '_lbl_8C066F80'], ['_lbl_8C068D9A', '_lbl_8C066F84'], ['_lbl_8C1411F8', '_lbl_8C066F88'], ['_lbl_8C068E66', '_lbl_8C066F8C'], ["h'03D402E8", 744], ["h'012003D4", 980], ["h'01000120", 288], ["h'02D80100", 256], ["h'080002D8", 728]]);
+// MERGE_LIST([["h'00008000", '_lbl_8C066F80'], ['_lbl_8C068D9A', '_lbl_8C066F84'], ['_rom', '_lbl_8C066F88'], ['_lbl_8C068E66', '_lbl_8C066F8C'], ["h'03D402E8", 744], ["h'012003D4", 980], ["h'01000120", 288], ["h'02D80100", 256], ["h'080002D8", 728]]);
 INLINE_ASM(_func_8C066F0A, 0x528, "asm/nonmatching/./split2/_func_8C066F0A.src");
 
 // MERGE_LIST([["h'03D40480", 1152], ["h'02E803D4", 980], ["h'008402E8", 744], ["h'05000084", 132], ["h'FB000500", 1280], ["h'0410FB00", 64256], ["h'8E660410", 1040], ['_lbl_8C068E66', '_lbl_8C067458'], ["h'3DA3D70A", '_lbl_8C06745C'], ["h'3DCCCCCD", '_lbl_8C067460'], ['_lbl_8C068D82', '_lbl_8C067464'], ['_lbl_8C068DDC', '_lbl_8C067468'], ["h'3D8F5C29", '_lbl_8C06746C'], ['_lbl_8C068D9A', '_lbl_8C067470']]);
@@ -1678,13 +1678,13 @@ INLINE_ASM(_func_8C067D5A, 0x2a6, "asm/nonmatching/./split2/_func_8C067D5A.src")
 // MERGE_LIST([["h'02E802D8", 728], ["h'036C02E8", 744], ["h'0380036C", 876], ["h'00000380", 896], ["h'02000000", '_lbl_8C068028'], ['_njUnitMatrix', '_lbl_8C06802C'], ['_njTranslate', '_lbl_8C068030'], ['_njRotateXYZ', '_lbl_8C068034'], ["h'3FD115BE", '_lbl_8C068038'], ["h'BFE73C04", '_lbl_8C06803C'], ['_njCalcPoint', '_lbl_8C068040'], ["h'FFF7FFFF", '_lbl_8C068044'], ["h'02100000", '_lbl_8C068048']]);
 INLINE_ASM(_func_8C068000, 0x11e, "asm/nonmatching/./split2/_func_8C068000.src");
 
-// MERGE_LIST([["h'00080000", '_lbl_8C068180'], ["h'02000000", '_lbl_8C068184'], ["h'02E80120", 288], ["h'FBF3FFFF", '_lbl_8C068188'], ["h'02D802E8", 744], ["h'010002D8", 728], ['_lbl_8C1411F8', '_lbl_8C068170'], ['_plp', '_lbl_8C068174'], ['_lbl_8C0B45F2', '_lbl_8C068178'], ["h'00040000", '_lbl_8C06817C']]);
+// MERGE_LIST([["h'00080000", '_lbl_8C068180'], ["h'02000000", '_lbl_8C068184'], ["h'02E80120", 288], ["h'FBF3FFFF", '_lbl_8C068188'], ["h'02D802E8", 744], ["h'010002D8", 728], ['_rom', '_lbl_8C068170'], ['_plp', '_lbl_8C068174'], ['_lbl_8C0B45F2', '_lbl_8C068178'], ["h'00040000", '_lbl_8C06817C']]);
 INLINE_ASM(_func_8C06811E, 0x12, "asm/nonmatching/./split2/_func_8C06811E.src");
 
 // MERGE_LIST([['_lbl_8C14BA04', '_lbl_8C06818C']]);
 INLINE_ASM(_func_8C068130, 0x322, "asm/nonmatching/./split2/_func_8C068130.src");
 
-// MERGE_LIST([["h'01200368", 872], ["h'036C0120", 288], ["h'0380036C", 876], ["h'041C0380", 896], ["h'02E8041C", 1052], ["h'11F802E8", 744], ['_lbl_8C1411F8', '_lbl_8C068494'], ["h'02100000", '_lbl_8C068498']]);
+// MERGE_LIST([["h'01200368", 872], ["h'036C0120", 288], ["h'0380036C", 876], ["h'041C0380", 896], ["h'02E8041C", 1052], ["h'11F802E8", 744], ['_rom', '_lbl_8C068494'], ["h'02100000", '_lbl_8C068498']]);
 INLINE_ASM(_func_8C068452, 0x35e, "asm/nonmatching/./split2/_func_8C068452.src");
 
 // MERGE_LIST([["h'038003D4", 980], ["h'01000380", 896], ["h'02E80100", 256], ["h'036C02E8", 744], ["h'0080036C", 876], ["h'041C0080", 128], ["h'0000041C", 1052], ['_bhAddSpeed', '_lbl_8C0687E8'], ["h'00008000", '_lbl_8C0687EC'], ["h'02100000", '_lbl_8C0687F0']]);
@@ -1996,7 +1996,7 @@ INLINE_ASM(_func_8C0746CA, 0x12, "asm/nonmatching/./split2/_func_8C0746CA.src");
 // MERGE_LIST([['_lbl_8C14E47C', '_lbl_8C074718']]);
 INLINE_ASM(_func_8C0746DC, 0x400, "asm/nonmatching/./split2/_func_8C0746DC.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C074B94'], ['_lbl_8C14E054', '_lbl_8C074B98'], ['_lbl_8C040CF2', '_lbl_8C074B9C']]);
+// MERGE_LIST([['_rom', '_lbl_8C074B94'], ['_lbl_8C14E054', '_lbl_8C074B98'], ['_lbl_8C040CF2', '_lbl_8C074B9C']]);
 INLINE_ASM(_func_8C074ADC, 0x866, "asm/nonmatching/./split2/_func_8C074ADC.src");
 
 // MERGE_LIST([['_lbl_8C14E488', '_lbl_8C075358']]);
@@ -2768,7 +2768,7 @@ INLINE_ASM(_func_8C096C7E, 0x4, "asm/nonmatching/./split2/_func_8C096C7E.src");
 
 INLINE_ASM(_func_8C096C82, 0x80, "asm/nonmatching/./split2/_func_8C096C82.src");
 
-// MERGE_LIST([["h'02E002E4", 740], ["h'015802E0", 736], ['_npSetMemoryL', '_lbl_8C096D44'], ["h'02D80158", 344], ["h'035C02D8", 728], ["h'000080A1", '_lbl_8C096D48'], ["h'0000035C", 860], ['_lbl_8C1411F8', '_lbl_8C096D4C'], ['_lbl_8C040CF2', '_lbl_8C096D50'], ['__quick_evn_mvn', '_lbl_8C096D54'], ["h'02E40088", 136]]);
+// MERGE_LIST([["h'02E002E4", 740], ["h'015802E0", 736], ['_npSetMemoryL', '_lbl_8C096D44'], ["h'02D80158", 344], ["h'035C02D8", 728], ["h'000080A1", '_lbl_8C096D48'], ["h'0000035C", 860], ['_rom', '_lbl_8C096D4C'], ['_lbl_8C040CF2', '_lbl_8C096D50'], ['__quick_evn_mvn', '_lbl_8C096D54'], ["h'02E40088", 136]]);
 INLINE_ASM(_func_8C096D02, 0x5a, "asm/nonmatching/./split2/_func_8C096D02.src");
 
 INLINE_ASM(_func_8C096D5C, 0x8, "asm/nonmatching/./split2/_func_8C096D5C.src");
@@ -3657,7 +3657,7 @@ INLINE_ASM(_func_8C0B4ACA, 0x17a, "asm/nonmatching/./split2/_func_8C0B4ACA.src")
 
 INLINE_ASM(_func_8C0B4C44, 0xd6, "asm/nonmatching/./split2/_func_8C0B4C44.src");
 
-// MERGE_LIST([['_sys', '_lbl_8C0B4D40'], ['_lbl_8C1411F8', '_lbl_8C0B4D44'], ["h'00028A98", '_lbl_8C0B4D48'], ["h'00029C9C", '_lbl_8C0B4D4C'], ["h'000000A0", 160]]);
+// MERGE_LIST([['_sys', '_lbl_8C0B4D40'], ['_rom', '_lbl_8C0B4D44'], ["h'00028A98", '_lbl_8C0B4D48'], ["h'00029C9C", '_lbl_8C0B4D4C'], ["h'000000A0", 160]]);
 INLINE_ASM(_func_8C0B4D1A, 0x22, "asm/nonmatching/./split2/_func_8C0B4D1A.src");
 
 INLINE_ASM(_func_8C0B4D3C, 0x178, "asm/nonmatching/./split2/_func_8C0B4D3C.src");
@@ -4566,7 +4566,7 @@ INLINE_ASM(_func_8C0D7FCC, 0x88, "asm/nonmatching/./split2/_func_8C0D7FCC.src");
 
 INLINE_ASM(_func_8C0D8054, 0xe2, "asm/nonmatching/./split2/_func_8C0D8054.src");
 
-// MERGE_LIST([['_lbl_8C13A08C', '_lbl_8C0D8180'], ["h'3F333333", '_lbl_8C0D81A0'], ['__quick_odd_mvn', '_lbl_8C0D8184'], ["h'40400000", '_lbl_8C0D8198'], ['_bhGetGroundPosition', '_lbl_8C0D8188'], ['_lbl_8C1411F8', '_lbl_8C0D818C'], ["h'41700000", '_lbl_8C0D8190'], ["h'41F00000", '_lbl_8C0D8194'], ["h'00B00134", 308], ["h'01C000B0", 176], ["h'008C01C0", 448], ["h'3FE66666", '_lbl_8C0D819C']]);
+// MERGE_LIST([['_lbl_8C13A08C', '_lbl_8C0D8180'], ["h'3F333333", '_lbl_8C0D81A0'], ['__quick_odd_mvn', '_lbl_8C0D8184'], ["h'40400000", '_lbl_8C0D8198'], ['_bhGetGroundPosition', '_lbl_8C0D8188'], ['_rom', '_lbl_8C0D818C'], ["h'41700000", '_lbl_8C0D8190'], ["h'41F00000", '_lbl_8C0D8194'], ["h'00B00134", 308], ["h'01C000B0", 176], ["h'008C01C0", 448], ["h'3FE66666", '_lbl_8C0D819C']]);
 INLINE_ASM(_func_8C0D8136, 0x470, "asm/nonmatching/./split2/_func_8C0D8136.src");
 
 // MERGE_LIST([["h'00D00090", 144], ["h'008C00D0", 208], ['__quick_odd_mvn', '_lbl_8C0D85E0'], ['_njAddVector', '_lbl_8C0D85E4'], ['_sys', '_lbl_8C0D85E8'], ["h'000262E8", '_lbl_8C0D85EC'], ["h'000222E4", '_lbl_8C0D85F0']]);
@@ -4861,7 +4861,7 @@ INLINE_ASM(_bhCheckWallEx, 0xe50, "asm/nonmatching/./split2/_bhCheckWallEx.src")
 
 INLINE_ASM(_func_8C0E718C, 0x36, "asm/nonmatching/./split2/_func_8C0E718C.src");
 
-// MERGE_LIST([['_lbl_8C0E8D50', '_lbl_8C0E72A0'], ["h'0098FF64", 65380], ["h'01180098", 152], ['_lbl_8C1411F8', '_lbl_8C0E7294'], ['_sys', '_lbl_8C0E7298'], ["h'00028A90", '_lbl_8C0E729C']]);
+// MERGE_LIST([['_lbl_8C0E8D50', '_lbl_8C0E72A0'], ["h'0098FF64", 65380], ["h'01180098", 152], ['_rom', '_lbl_8C0E7294'], ['_sys', '_lbl_8C0E7298'], ["h'00028A90", '_lbl_8C0E729C']]);
 INLINE_ASM(_func_8C0E71C2, 0x1c1a, "asm/nonmatching/./split2/_func_8C0E71C2.src");
 
 INLINE_ASM(_func_8C0E8DDC, 0x34a, "asm/nonmatching/./split2/_func_8C0E8DDC.src");
@@ -4872,7 +4872,7 @@ INLINE_ASM(_func_8C0E9126, 0x4a6, "asm/nonmatching/./split2/_func_8C0E9126.src")
 // MERGE_LIST([["h'FF580084", 132]]);
 INLINE_ASM(_func_8C0E95CC, 0x4e, "asm/nonmatching/./split2/_func_8C0E95CC.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C0E96A0'], ['_sys', '_lbl_8C0E96A4'], ["h'00028A90", '_lbl_8C0E96A8'], ['_lbl_8C0EADE8', '_lbl_8C0E96AC'], ["h'00A4FF58", 65368], ["h'00A000A4", 164], ["h'009C00A0", 160], ["h'0098009C", 156], ["h'00940098", 152], ["h'01180094", 148]]);
+// MERGE_LIST([['_rom', '_lbl_8C0E96A0'], ['_sys', '_lbl_8C0E96A4'], ["h'00028A90", '_lbl_8C0E96A8'], ['_lbl_8C0EADE8', '_lbl_8C0E96AC'], ["h'00A4FF58", 65368], ["h'00A000A4", 164], ["h'009C00A0", 160], ["h'0098009C", 156], ["h'00940098", 152], ["h'01180094", 148]]);
 INLINE_ASM(_func_8C0E961A, 0x17ee, "asm/nonmatching/./split2/_func_8C0E961A.src");
 
 // MERGE_LIST([["h'000000A8", 168], ['_lbl_8C0E961A', '_lbl_8C0EAE14']]);
@@ -4887,7 +4887,7 @@ INLINE_ASM(_func_8C0EC89A, 0x3da, "asm/nonmatching/./split2/_func_8C0EC89A.src")
 
 INLINE_ASM(_func_8C0ECC74, 0xf4, "asm/nonmatching/./split2/_func_8C0ECC74.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C0ECD90'], ["h'11F80118", 280]]);
+// MERGE_LIST([['_rom', '_lbl_8C0ECD90'], ["h'11F80118", 280]]);
 INLINE_ASM(_func_8C0ECD68, 0x26, "asm/nonmatching/./split2/_func_8C0ECD68.src");
 
 INLINE_ASM(_func_8C0ECD8E, 0x33e, "asm/nonmatching/./split2/_func_8C0ECD8E.src");
@@ -4916,7 +4916,7 @@ INLINE_ASM(_func_8C0EE7B0, 0x100, "asm/nonmatching/./split2/_func_8C0EE7B0.src")
 
 INLINE_ASM(_bhCheckFloorSound, 0xc8, "asm/nonmatching/./split2/_bhCheckFloorSound.src");
 
-// MERGE_LIST([["h'00029C9C", '_lbl_8C0EE9C0'], ["h'008800A0", 160], ["h'00000088", 136], ['_lbl_8C1411F8', '_lbl_8C0EE9B4'], ['_sys', '_lbl_8C0EE9B8'], ["h'00028A98", '_lbl_8C0EE9BC']]);
+// MERGE_LIST([["h'00029C9C", '_lbl_8C0EE9C0'], ["h'008800A0", 160], ["h'00000088", 136], ['_rom', '_lbl_8C0EE9B4'], ['_sys', '_lbl_8C0EE9B8'], ["h'00028A98", '_lbl_8C0EE9BC']]);
 INLINE_ASM(_func_8C0EE978, 0xb4, "asm/nonmatching/./split2/_func_8C0EE978.src");
 
 // MERGE_LIST([["h'00029C9C", '_lbl_8C0EEAC0']]);
@@ -4941,7 +4941,7 @@ INLINE_ASM(_func_8C0EF4A0, 0x58, "asm/nonmatching/./split2/_func_8C0EF4A0.src");
 
 INLINE_ASM(_func_8C0EF4F8, 0xbe, "asm/nonmatching/./split2/_func_8C0EF4F8.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C0EF640'], ["h'00028A90", '_lbl_8C0EF644'], ["h'00028A9C", '_lbl_8C0EF648'], ["h'04000098", 152], ['_sys', '_lbl_8C0EF63C']]);
+// MERGE_LIST([['_rom', '_lbl_8C0EF640'], ["h'00028A90", '_lbl_8C0EF644'], ["h'00028A9C", '_lbl_8C0EF648'], ["h'04000098", 152], ['_sys', '_lbl_8C0EF63C']]);
 INLINE_ASM(_func_8C0EF5B6, 0x118, "asm/nonmatching/./split2/_func_8C0EF5B6.src");
 
 // MERGE_LIST([["h'00028A9C", '_lbl_8C0EF758'], ['_sys', '_lbl_8C0EF754']]);
@@ -4976,7 +4976,7 @@ INLINE_ASM(_func_8C0F1732, 0x1e, "asm/nonmatching/./split2/_func_8C0F1732.src");
 
 INLINE_ASM(_func_8C0F1750, 0xaa, "asm/nonmatching/./split2/_func_8C0F1750.src");
 
-// MERGE_LIST([['_lbl_8C1411F8', '_lbl_8C0F1870'], ["h'00A800FF", 255], ["h'11F800A8", 168], ["h'3F000000", '_lbl_8C0F1874']]);
+// MERGE_LIST([['_rom', '_lbl_8C0F1870'], ["h'00A800FF", 255], ["h'11F800A8", 168], ["h'3F000000", '_lbl_8C0F1874']]);
 INLINE_ASM(_func_8C0F17FA, 0x7e, "asm/nonmatching/./split2/_func_8C0F17FA.src");
 
 INLINE_ASM(_func_8C0F1878, 0x128, "asm/nonmatching/./split2/_func_8C0F1878.src");
