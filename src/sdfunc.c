@@ -1,6 +1,13 @@
-INLINE_ASM(_bhReleaseFreeMemory, 0xa, "asm/nonmatching/./sdfunc/_bhReleaseFreeMemory.src");
+#include "structs.h"
 
-// MERGE_LIST([["h'0001B17C", '_lbl_8C1044C0'], ['_sys', '_lbl_8C1044BC']]);
+extern SYS_WORK* sys;
+
+void bhReleaseFreeMemory(void* mp)
+{ 
+    sys->memp = mp; 
+}
+
+MERGE_LIST([["h'0001B17C", '_lbl_8C1044C0'], ['_sys', '_lbl_8C1044BC']]);
 INLINE_ASM(_ExitApplication, 0x6, "asm/nonmatching/./sdfunc/_ExitApplication.src");
 
 // MERGE_LIST([['_njUserExit', '_lbl_8C1044C4']]);
