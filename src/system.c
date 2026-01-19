@@ -62,7 +62,7 @@ INLINE_ASM(_bhSysCallTypewriter, 0x58, "asm/nonmatching/./system/_bhSysCallTypew
 
 INLINE_ASM(_bhSysCallOption, 0xe2, "asm/nonmatching/./system/_bhSysCallOption.src");
 
-// MERGE_LIST([["h'FE7F0180", 384], ["h'11F4FE7F", 65151], ['_sys', '_lbl_8C01860C'], ["h'0002A6F4", '_lbl_8C018610'], ['_njFogDisable', '_lbl_8C018614'], ['_Adv_GameOptionScreen', '_lbl_8C018618'], ["h'EFFFFFFF", '_lbl_8C01861C'], ["h'00010000", '_lbl_8C018620'], ["h'0001B14C", '_lbl_8C018624'], ["h'00008000", '_lbl_8C018628'], ['_njFogEnable', '_lbl_8C01862C'], ["h'40400000", '_lbl_8C018630'], ["h'0002A5F0", '_lbl_8C018634'], ['_bhSetScreenFade', '_lbl_8C018638'], ['_lbl_8C01BE22', '_lbl_8C01863C'], ['_lbl_8C327B14', '_lbl_8C018640'], ["h'00100000", '_lbl_8C018644'], ['_lbl_8C107DE4', '_lbl_8C018648'], ["h'00300008", '_lbl_8C01864C']]);
+// MERGE_LIST([["h'FE7F0180", 384], ["h'11F4FE7F", 65151], ['_sys', '_lbl_8C01860C'], ["h'0002A6F4", '_lbl_8C018610'], ['_njFogDisable', '_lbl_8C018614'], ['_Adv_GameOptionScreen', '_lbl_8C018618'], ["h'EFFFFFFF", '_lbl_8C01861C'], ["h'00010000", '_lbl_8C018620'], ["h'0001B14C", '_lbl_8C018624'], ["h'00008000", '_lbl_8C018628'], ['_njFogEnable', '_lbl_8C01862C'], ["h'40400000", '_lbl_8C018630'], ["h'0002A5F0", '_lbl_8C018634'], ['_bhSetScreenFade', '_lbl_8C018638'], ['_lbl_8C01BE22', '_lbl_8C01863C'], ['_SoftResetFlag', '_lbl_8C018640'], ["h'00100000", '_lbl_8C018644'], ['_lbl_8C107DE4', '_lbl_8C018648'], ["h'00300008", '_lbl_8C01864C']]);
 INLINE_ASM(_bhSysCallCompEvent, 0x52, "asm/nonmatching/./system/_bhSysCallCompEvent.src");
 
 INLINE_ASM(_bhSysCallMonitor, 0x17c6, "asm/nonmatching/./system/_bhSysCallMonitor.src");
