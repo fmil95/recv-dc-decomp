@@ -1,6 +1,9 @@
 #include "structs.h"
 
 extern SYS_WORK* sys;
+extern void njUserExit();
+extern unsigned int StatusUpdateCounter;
+extern unsigned int DiscOpenTrayFlag;
 
 void bhReleaseFreeMemory(void* mp)
 { 
@@ -8,12 +11,15 @@ void bhReleaseFreeMemory(void* mp)
 }
 
 MERGE_LIST([["h'0001B17C", '_lbl_8C1044C0'], ['_sys', '_lbl_8C1044BC']]);
-INLINE_ASM(_ExitApplication, 0x6, "asm/nonmatching/./sdfunc/_ExitApplication.src");
+void ExitApplication()
+{ 
+    njUserExit();
+}
 
-// MERGE_LIST([['_njUserExit', '_lbl_8C1044C4']]);
+MERGE_LIST([['_njUserExit', '_lbl_8C1044C4']]);
 INLINE_ASM(_QuickGetDiscTrayStatus, 0x1e, "asm/nonmatching/./sdfunc/_QuickGetDiscTrayStatus.src");
 
-// MERGE_LIST([['_lbl_8C325A0C', '_lbl_8C1044C8'], ['_njWaitVSync', '_lbl_8C1044CC'], ['_lbl_8C1682B0', '_lbl_8C1044D0']]);
+// MERGE_LIST([['_lbl_8C325A0C', '_StatusUpdateCounter'], ['_njWaitVSync', '_lbl_8C1044CC'], ['_lbl_8C1682B0', '_DiscOpenTrayFlag']]);
 INLINE_ASM(_func_8C1043E6, 0x6, "asm/nonmatching/./sdfunc/_func_8C1043E6.src");
 
 // MERGE_LIST([['_lbl_8C1730B0', '_lbl_8C1044D4']]);
