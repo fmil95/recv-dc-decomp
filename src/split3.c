@@ -13,10 +13,10 @@ INLINE_ASM(_func_8C0F402C, 0xb4, "asm/nonmatching/./split3/_func_8C0F402C.src");
 
 INLINE_ASM(_func_8C0F40E0, 0xd2, "asm/nonmatching/./split3/_func_8C0F40E0.src");
 
-INLINE_ASM(_func_8C0F41B2, 0x86, "asm/nonmatching/./split3/_func_8C0F41B2.src");
+INLINE_ASM(_bhCheckCutAttribute, 0x86, "asm/nonmatching/./split3/_bhCheckCutAttribute.src");
 
 // MERGE_LIST([["h'00980080", 128], ["h'008002A8", 680], ["h'00C40098", 152]]);
-INLINE_ASM(_func_8C0F4238, 0x300, "asm/nonmatching/./split3/_func_8C0F4238.src");
+INLINE_ASM(_bhSetCut, 0x300, "asm/nonmatching/./split3/_bhSetCut.src");
 
 INLINE_ASM(_bhSetFixedCut, 0x1c0, "asm/nonmatching/./split3/_bhSetFixedCut.src");
 

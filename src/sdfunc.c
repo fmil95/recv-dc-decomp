@@ -11,6 +11,7 @@ void bhReleaseFreeMemory(void* mp)
 }
 
 MERGE_LIST([["h'0001B17C", '_lbl_8C1044C0'], ['_sys', '_lbl_8C1044BC']]);
+
 void ExitApplication()
 { 
     njUserExit();
@@ -36,9 +37,9 @@ INLINE_ASM(_InitSoundProgram, 0x160, "asm/nonmatching/./sdfunc/_InitSoundProgram
 INLINE_ASM(_ExitSoundProgram, 0x5a, "asm/nonmatching/./sdfunc/_ExitSoundProgram.src");
 
 // MERGE_LIST([['_lbl_8C10228C', '_lbl_8C104740'], ['_lbl_8C179DF2', '_lbl_8C104744'], ['_lbl_8C326288', '_lbl_8C104748'], ['_lbl_8C1684EC', '_lbl_8C10472C'], ['_syFree', '_lbl_8C10474C'], ['_lbl_8C107C6A', '_lbl_8C104730'], ['_lbl_8C128DBA', '_lbl_8C104734'], ['_lbl_8C103D50', '_lbl_8C104738'], ['_lbl_8C1038C4', '_lbl_8C10473C']]);
-INLINE_ASM(_func_8C1046C2, 0x118, "asm/nonmatching/./sdfunc/_func_8C1046C2.src");
+INLINE_ASM(_MountSoundAfs, 0x118, "asm/nonmatching/./sdfunc/_MountSoundAfs.src");
 
-// MERGE_LIST([['_PatId', '_lbl_8C104900'], ['_sys', '_lbl_8C104904'], ['_lbl_8C10399C', '_lbl_8C1048FC']]);
+// MERGE_LIST([['_PatId', '_lbl_8C104900'], ['_sys', '_lbl_8C104904'], ['_CreatePartitionEx', '_lbl_8C1048FC']]);
 INLINE_ASM(_func_8C1047DA, 0x2c, "asm/nonmatching/./sdfunc/_func_8C1047DA.src");
 
 // MERGE_LIST([['_PatId', '_lbl_8C104900'], ['_SoundAfsPatDef', '_lbl_8C104908'], ['_lbl_8C1039F8', '_lbl_8C10490C'], ['_pSpqList', '_lbl_8C104910'], ['_syFree', '_lbl_8C104914']]);
@@ -67,16 +68,16 @@ INLINE_ASM(_func_8C104C20, 0x1e, "asm/nonmatching/./sdfunc/_func_8C104C20.src");
 // MERGE_LIST([['_lbl_8C1684F8', '_lbl_8C104C80'], ['_lbl_8C1684F0', '_lbl_8C104C84'], ['_lbl_8C3279C8', '_lbl_8C104C8C'], ['_lbl_8C3279B8', '_lbl_8C104C88']]);
 INLINE_ASM(_func_8C104C3E, 0x52, "asm/nonmatching/./sdfunc/_func_8C104C3E.src");
 
-INLINE_ASM(_func_8C104C90, 0x4c, "asm/nonmatching/./sdfunc/_func_8C104C90.src");
+INLINE_ASM(_RequestRoomSoundBank, 0x4c, "asm/nonmatching/./sdfunc/_RequestRoomSoundBank.src");
 
 // MERGE_LIST([["h'400003E8", 1000], ['_lbl_8C13B6B8', '_lbl_8C104DCC'], ['_lbl_8C3279CC', '_lbl_8C104DD0'], ['_sprintf', '_lbl_8C104DD4'], ['_lbl_8C326294', '_lbl_8C104DD8'], ['_lbl_8C1684F4', '_lbl_8C104DDC']]);
-INLINE_ASM(_func_8C104CDC, 0x2c, "asm/nonmatching/./sdfunc/_func_8C104CDC.src");
+INLINE_ASM(_RequestArmsSoundBank, 0x2c, "asm/nonmatching/./sdfunc/_RequestArmsSoundBank.src");
 
 // MERGE_LIST([['_lbl_8C13B6CC', '_lbl_8C104DE0'], ["h'B6B84000", 16384], ['_lbl_8C3279CC', '_lbl_8C104DD0'], ['_sprintf', '_lbl_8C104DD4'], ['_lbl_8C326294', '_lbl_8C104DD8'], ['_lbl_8C1684F4', '_lbl_8C104DDC']]);
 INLINE_ASM(_func_8C104D08, 0x2c, "asm/nonmatching/./sdfunc/_func_8C104D08.src");
 
 // MERGE_LIST([['_lbl_8C13B6DC', '_lbl_8C104DE4'], ["h'00008000", '_lbl_8C104DE8'], ['_lbl_8C3262CA', '_lbl_8C104DEC'], ['_lbl_8C3279CC', '_lbl_8C104DD0'], ['_sprintf', '_lbl_8C104DD4'], ['_lbl_8C326294', '_lbl_8C104DD8'], ['_lbl_8C1684F4', '_lbl_8C104DDC']]);
-INLINE_ASM(_func_8C104D34, 0x2c, "asm/nonmatching/./sdfunc/_func_8C104D34.src");
+INLINE_ASM(_RequestPlayerVoiceSoundBank, 0x2c, "asm/nonmatching/./sdfunc/_RequestPlayerVoiceSoundBank.src");
 
 // MERGE_LIST([['_lbl_8C3279CC', '_lbl_8C104DD0'], ['_lbl_8C13B6EC', '_lbl_8C104DF0'], ['_sprintf', '_lbl_8C104DD4'], ["h'0000FFF0", '_lbl_8C104DF4'], ['_lbl_8C326294', '_lbl_8C104DD8'], ['_lbl_8C1684F4', '_lbl_8C104DDC']]);
 INLINE_ASM(_func_8C104D60, 0x4e, "asm/nonmatching/./sdfunc/_func_8C104D60.src");
@@ -84,13 +85,13 @@ INLINE_ASM(_func_8C104D60, 0x4e, "asm/nonmatching/./sdfunc/_func_8C104D60.src");
 // MERGE_LIST([['_lbl_8C13B6FC', '_lbl_8C104DF8'], ["h'400003E8", 1000], ['_lbl_8C3279CC', '_lbl_8C104DD0'], ['_sprintf', '_lbl_8C104DD4'], ['_lbl_8C326294', '_lbl_8C104DD8'], ['_lbl_8C1684F4', '_lbl_8C104DDC'], ["h'0000C000", '_lbl_8C104DFC']]);
 INLINE_ASM(_func_8C104DAE, 0x4, "asm/nonmatching/./sdfunc/_func_8C104DAE.src");
 
-INLINE_ASM(_func_8C104DB2, 0x6, "asm/nonmatching/./sdfunc/_func_8C104DB2.src");
+INLINE_ASM(_CheckTransEndSoundBank, 0x6, "asm/nonmatching/./sdfunc/_CheckTransEndSoundBank.src");
 
 // MERGE_LIST([['_lbl_8C1684F4', '_lbl_8C104DDC']]);
 INLINE_ASM(_func_8C104DB8, 0x6, "asm/nonmatching/./sdfunc/_func_8C104DB8.src");
 
 // MERGE_LIST([['_lbl_8C1684C0', '_lbl_8C104E00']]);
-INLINE_ASM(_func_8C104DBE, 0x46, "asm/nonmatching/./sdfunc/_func_8C104DBE.src");
+INLINE_ASM(_GetRoomSoundCaseNo, 0x46, "asm/nonmatching/./sdfunc/_GetRoomSoundCaseNo.src");
 
 INLINE_ASM(_func_8C104E04, 0x2a, "asm/nonmatching/./sdfunc/_func_8C104E04.src");
 
@@ -130,7 +131,7 @@ INLINE_ASM(_func_8C1059C2, 0x60, "asm/nonmatching/./sdfunc/_func_8C1059C2.src");
 // MERGE_LIST([['__quick_evn_mvn', '_lbl_8C105A28'], ['_lbl_8C168498', '_lbl_8C105A60'], ['_lbl_8C13B718', '_lbl_8C105A5C']]);
 INLINE_ASM(_func_8C105A22, 0x1f8, "asm/nonmatching/./sdfunc/_func_8C105A22.src");
 
-// MERGE_LIST([['_lbl_8C3262B0', '_lbl_8C105C60'], ["h'4F000000", '_lbl_8C105C80'], ['_lbl_8C327A1C', '_lbl_8C105C64'], ['_lbl_8C3262CC', '_lbl_8C105C84'], ["h'40800000", '_lbl_8C105C78'], ['_lbl_8C327998', '_lbl_8C105C48'], ['_lbl_8C327A18', '_lbl_8C105C68'], ['_lbl_8C102A70', '_lbl_8C105C88'], ['_lbl_8C326298', '_lbl_8C105C4C'], ['_lbl_8C327A10', '_lbl_8C105C6C'], ['_lbl_8C13B730', '_lbl_8C105C50'], ['_lbl_8C327A14', '_lbl_8C105C70'], ['_lbl_8C1330F0', '_lbl_8C105C7C'], ['_lbl_8C132DF0', '_lbl_8C105C54'], ["h'47000000", '_lbl_8C105C74'], ['_lbl_8C13B738', '_lbl_8C105C58'], ['_lbl_8C13B740', '_lbl_8C105C5C']]);
+// MERGE_LIST([['_lbl_8C3262B0', '_lbl_8C105C60'], ["h'4F000000", '_lbl_8C105C80'], ['_lbl_8C327A1C', '_lbl_8C105C64'], ['_lbl_8C3262CC', '_lbl_8C105C84'], ["h'40800000", '_lbl_8C105C78'], ['_lbl_8C327998', '_lbl_8C105C48'], ['_lbl_8C327A18', '_lbl_8C105C68'], ['_lbl_8C102A70', '_lbl_8C105C88'], ['_lbl_8C326298', '_lbl_8C105C4C'], ['_lbl_8C327A10', '_lbl_8C105C6C'], ['_lbl_8C13B730', '_lbl_8C105C50'], ['_lbl_8C327A14', '_lbl_8C105C70'], ['_rand', '_lbl_8C105C7C'], ['_lbl_8C132DF0', '_lbl_8C105C54'], ["h'47000000", '_lbl_8C105C74'], ['_lbl_8C13B738', '_lbl_8C105C58'], ['_lbl_8C13B740', '_lbl_8C105C5C']]);
 INLINE_ASM(_CallPlayerFootStepSe, 0x12, "asm/nonmatching/./sdfunc/_CallPlayerFootStepSe.src");
 
 // MERGE_LIST([['_lbl_8C3262BC', '_lbl_8C105C8C']]);
@@ -166,7 +167,7 @@ INLINE_ASM(_func_8C105F20, 0x4e, "asm/nonmatching/./sdfunc/_func_8C105F20.src");
 INLINE_ASM(_func_8C105F6E, 0xac, "asm/nonmatching/./sdfunc/_func_8C105F6E.src");
 
 // MERGE_LIST([['__quick_odd_mvn', '_lbl_8C1060A0'], ['_lbl_8C3262B0', '_lbl_8C1060A4'], ['_lbl_8C132DF0', '_lbl_8C106088'], ['_Get3DSoundParameter', '_lbl_8C1060A8'], ['_lbl_8C3262CF', '_lbl_8C1060AC'], ["h'00F00000", '_lbl_8C1060B0'], ["h'000F0000", '_lbl_8C1060B4'], ['_lbl_8C13B790', '_lbl_8C106098'], ['_lbl_8C326348', '_lbl_8C10609C'], ["h'0F000000", '_lbl_8C1060B8']]);
-INLINE_ASM(_func_8C10601A, 0x12, "asm/nonmatching/./sdfunc/_func_8C10601A.src");
+INLINE_ASM(_RequestEnemySe, 0x12, "asm/nonmatching/./sdfunc/_RequestEnemySe.src");
 
 INLINE_ASM(_func_8C10602C, 0x10, "asm/nonmatching/./sdfunc/_func_8C10602C.src");
 
@@ -321,7 +322,7 @@ INLINE_ASM(_func_8C1073EC, 0x62, "asm/nonmatching/./sdfunc/_func_8C1073EC.src");
 INLINE_ASM(_func_8C10744E, 0x1e, "asm/nonmatching/./sdfunc/_func_8C10744E.src");
 
 // MERGE_LIST([['_lbl_8C327990', '_lbl_8C10760C']]);
-INLINE_ASM(_func_8C10746C, 0x96, "asm/nonmatching/./sdfunc/_func_8C10746C.src");
+INLINE_ASM(_ExecSoundSystemMonitor, 0x96, "asm/nonmatching/./sdfunc/_ExecSoundSystemMonitor.src");
 
 // MERGE_LIST([['_lbl_8C103F02', '_lbl_8C107620'], ['_lbl_8C103F50', '_lbl_8C107624'], ['_lbl_8C3279BC', '_lbl_8C107628'], ['_cam', '_lbl_8C107610'], ['_lbl_8C3262B0', '_lbl_8C107614'], ['_plp', '_lbl_8C107618'], ['_lbl_8C3262BC', '_lbl_8C10761C']]);
 INLINE_ASM(_RequestReadIsoFile, 0x48, "asm/nonmatching/./sdfunc/_RequestReadIsoFile.src");

@@ -144,17 +144,17 @@ INLINE_ASM(_func_8C0145FC, 0x258, "asm/nonmatching/./split1/_func_8C0145FC.src")
 
 INLINE_ASM(_func_8C014854, 0x638, "asm/nonmatching/./split1/_func_8C014854.src");
 
-INLINE_ASM(_func_8C014E8C, 0x30c, "asm/nonmatching/./split1/_func_8C014E8C.src");
+INLINE_ASM(_bhPutModel, 0x30c, "asm/nonmatching/./split1/_bhPutModel.src");
 
-INLINE_ASM(_func_8C015198, 0x82, "asm/nonmatching/./split1/_func_8C015198.src");
+INLINE_ASM(_EasyMultiDrawTreeCnk, 0x82, "asm/nonmatching/./split1/_EasyMultiDrawTreeCnk.src");
 
 // MERGE_LIST([['_cam', '_lbl_8C0152A0'], ['_njPushMatrix', '_lbl_8C0152A4'], ["h'80000000", '_lbl_8C0152A8'], ['_njMultiMatrix', '_lbl_8C0152AC'], ['_njTranslate', '_lbl_8C0152B0'], ['_lbl_8C19DF0A', '_lbl_8C0152B4'], ['_lbl_8C195858', '_lbl_8C0152B8'], ["h'0000009C", 156]]);
-INLINE_ASM(_func_8C01521A, 0xa6, "asm/nonmatching/./split1/_func_8C01521A.src");
+INLINE_ASM(_SimpleMultiDrawTreeCnk, 0xa6, "asm/nonmatching/./split1/_SimpleMultiDrawTreeCnk.src");
 
-INLINE_ASM(_func_8C0152C0, 0x82, "asm/nonmatching/./split1/_func_8C0152C0.src");
+INLINE_ASM(_EasyDrawTreeCnk, 0x82, "asm/nonmatching/./split1/_EasyDrawTreeCnk.src");
 
 // MERGE_LIST([['_lbl_8C195858', '_lbl_8C0153E0'], ["h'0000009C", 156], ['_cam', '_lbl_8C0153C8'], ['_njPushMatrix', '_lbl_8C0153CC'], ["h'80000000", '_lbl_8C0153D0'], ['_njMultiMatrix', '_lbl_8C0153D4'], ['_njTranslate', '_lbl_8C0153D8'], ['_lbl_8C19D5D6', '_lbl_8C0153DC']]);
-INLINE_ASM(_func_8C015342, 0xa6, "asm/nonmatching/./split1/_func_8C015342.src");
+INLINE_ASM(_SimpleDrawTreeCnk, 0xa6, "asm/nonmatching/./split1/_SimpleDrawTreeCnk.src");
 
 INLINE_ASM(_bhCalcModel, 0x178, "asm/nonmatching/./split1/_bhCalcModel.src");
 
