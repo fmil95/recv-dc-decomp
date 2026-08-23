@@ -4,21 +4,19 @@
 
 #idk how we should do this with other overlay files + 1st_read later on
 
-1ST_READ_KEY := 8C010000
 1ST_READ_ROM := build/1ST_READ.BIN
 1ST_READ_ELF := $(1ST_READ_ROM:.BIN=.elf)
+1ST_READ_OBJ := build/1ST_READ.o
+1ST_READ_ASM := build/1ST_READ.s
+1ST_READ_LDSCRIPT := 1st_read.gnu.ld
 
 COMPARE ?= 1
 
-SRC_DIRS := $(shell find src -type d)
-ASM_DIRS := $(shell find asm -type d -not -path '*/nonmatching/*')
-
-C_FILES       := $(foreach dir,$(SRC_DIRS),$(wildcard $(dir)/*.c))
-S_FILES       := $(foreach dir,$(ASM_DIRS),$(wildcard $(dir)/*.src))
-
-#i use obj to "differentiate" between regular elf object files and the SYSROF thing that hitachi uses
-O_FILES       := $(foreach f,$(S_FILES:.src=.obj),build/$f) \
-                 $(foreach f,$(C_FILES:.c=.obj),build/$f) 
+LINK_ORDER := start main sbinit split1 system game split2 screen split3 flag \
+              light split4 sdfunc split5 sync end
+C_GAS_FILES := $(addprefix build/src/,$(addsuffix .s,$(LINK_ORDER)))
+ASM_GAS_FILES := build/asm/code_126948.s build/asm/code_1311e0.s
+GAS_FILES := $(C_GAS_FILES) $(ASM_GAS_FILES)
 
 #using inline_asm automatically creates a .align 4, rts, and nop at the end of the function regardless of its contents
 #we have to remove those to be able to include asm
@@ -34,14 +32,15 @@ DCSPLIT := $(PYTHON) tools/dcsplit/dcsplit.py
 PATHHELP := $(BASH) tools/path_helper.sh
 
 SHC_DIR := shc
-
-MAKE = make
 CC := $(SHC_DIR)/bin/shc.exe
-AS := $(SHC_DIR)/bin/asmsh.exe
-LD := $(SHC_DIR)/bin/lnk.exe
-ELF2BIN := tools/elf2bin 
+CROSS ?= sh-elf-
+AS := $(CROSS)as
+LD := $(CROSS)ld
+SHC_TO_GAS := tools/shc_to_gas
 WINPATH := $(BASH) tools/winpath.sh
 WIBO := tools/wibo
+
+OBJCOPY := $(CROSS)objcopy
 
 # wibo doesn't convert env vars yet afaik, so we do it manually
 export SHC_LIB := $(shell $(WINPATH) $(abspath $(SHC_DIR)/bin))
@@ -53,46 +52,55 @@ INCLUDEDIRS := src,Include,$(SHC_DIR)\\include
 CFLAGS := -comment=nonest -cpu=sh4 -division=cpu -fpu=single -endian=little -optimize=1 -pic=0 -macsave=0 \
 	-speed -sjis -loop -string=const -round=nearest -inline -aggressive=2 -code=asmcode -include=$(INCLUDEDIRS)
 
-ASFLAGS := -cpu=sh4 -endian=little -sjis -include=asm
+ASFLAGS := --isa=sh4 -little
+LDFLAGS := -EL -T $(1ST_READ_LDSCRIPT) -Map build/1ST_READ.map
 
-LDFLAGS :=
+BUILD_DIRS := build build/src build/asm shc/temp
 
-$(shell mkdir -p asm)
-$(shell mkdir -p build $(foreach dir, $(SRC_DIRS) $(ASM_DIRS), build/$(dir)))
-$(shell mkdir -p shc/temp)
-
-#also stolen from oot makefile
-all: $(1ST_READ_ROM) 
+all: $(1ST_READ_ROM)
 ifeq ($(COMPARE),1)
 	@md5sum -c checksum.md5
 endif
 
-setup: 
+check:
+	@test -f rom/1ST_READ.BIN || { echo "missing rom/1ST_READ.BIN" >&2; exit 1; }
+	@test -f $(CC) || { echo "missing SHC compiler: $(CC)" >&2; exit 1; }
+	@sed 's|build/1ST_READ.BIN|rom/1ST_READ.BIN|' checksum.md5 | md5sum -c -
+
+setup: check
 	$(MAKE) -C tools
 	$(DCSPLIT) 1st_read.yaml
 
 clean:
-	$(RM) -r $(ROM) $(ELF) 1ST_READ_ELF.map build
+	$(RM) -r build
 
-.PHONY: all clean setup
+.PHONY: all check clean setup
 
-$(1ST_READ_ROM): $(1ST_READ_ELF) 
-	$(ELF2BIN) -s $(1ST_READ_KEY) $< $@
+$(BUILD_DIRS):
+	mkdir -p $@
 
-$(1ST_READ_ELF): $(O_FILES)
-	$(PATHHELP) $(WIBO) $(LD) $(LDFLAGS) -sub=1st_read_lnk.sub
+$(1ST_READ_ROM): $(1ST_READ_ELF) | build
+	$(OBJCOPY) -O binary $< $@
 
-# wibo doesn't support envvar conversion so we use wine for shc
-# wine crashes asmsh, and asmsh doesn't use the envvars
-# so wibo works 
-build/src/%.obj: src/%.c
+$(1ST_READ_ELF): $(1ST_READ_OBJ) $(1ST_READ_LDSCRIPT) | build
+	$(LD) $(LDFLAGS) -o $@ $(1ST_READ_OBJ)
+
+$(1ST_READ_OBJ): $(1ST_READ_ASM) | build
+	$(AS) $(ASFLAGS) -o $@ $<
+
+$(1ST_READ_ASM): $(GAS_FILES) | build
+	cat $^ > $@
+
+build/src/%.src: src/%.c | build/src shc/temp
 	$(FIX_INLINE_C) $< build/$<
-	$(PATHHELP) $(WIBO) $(CC) build/$< $(CFLAGS) -objectfile=$(@:.obj=.src)
-	$(FIX_INLINE) $(@:.obj=.src)
-	$(PATHHELP) $(WIBO) $(AS) $(@:.obj=.src) $(ASFLAGS) -object=$@
+	$(PATHHELP) $(WIBO) $(CC) build/$< $(CFLAGS) -objectfile=$@
+	$(FIX_INLINE) $@
 
-build/asm/%.obj: asm/%.src
-	$(PATHHELP) $(WIBO) $(AS) $< $(ASFLAGS) -object=$@
+build/src/%.s: build/src/%.src $(SHC_TO_GAS)
+	$(SHC_TO_GAS) < $< > $@
 
-build/asm/1st_read.obj:
-	$(PATHHELP) $(WIBO) $(AS) $(ASFLAGS) -object=$@
+build/asm/%.s: asm/%.src $(SHC_TO_GAS) | build/asm
+	$(SHC_TO_GAS) < $< > $@
+
+$(SHC_TO_GAS): tools/shc_to_gas.cpp
+	$(MAKE) -C tools shc_to_gas

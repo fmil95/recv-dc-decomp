@@ -12,6 +12,7 @@ shc/bin
 *.map
 *.nja
 tools/elf2bin
+tools/shc_to_gas
 
 !asm/.gitkeep
 !rom/.gitkeep
